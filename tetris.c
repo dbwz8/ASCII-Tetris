@@ -11,21 +11,6 @@ struct tetris_level {
     int nsec;
 };
 
-struct tetris {
-    char **game;
-    int w;
-    int h;
-    int level;
-    int gameover;
-    int score;
-    struct tetris_block {
-        char data[5][5];
-        int w;
-        int h;
-    } current;
-    int x;
-    int y;
-};
 
 struct tetris_block blocks[] =
 {
@@ -104,21 +89,10 @@ tetris_init(struct tetris *t,int w,int h) {
     t->gameover = 0;
     t->w = w;
     t->h = h;
-    t->game = malloc(sizeof(char *)*w);
     for (x=0; x<w; x++) {
-        t->game[x] = malloc(sizeof(char)*h);
         for (y=0; y<h; y++)
             t->game[x][y] = ' ';
     }
-}
-
-void
-tetris_clean(struct tetris *t) {
-    int x;
-    for (x=0; x<t->w; x++) {
-        free(t->game[x]);
-    }
-    free(t->game);
 }
 
 void
@@ -179,7 +153,7 @@ tetris_new_block(struct tetris *t) {
 
 void
 tetris_print_block(struct tetris *t) {
-    int x,y,X,Y;
+    int x,y;
     struct tetris_block b=t->current;
     for (x=0; x<b.w; x++)
         for (y=0; y<b.h; y++) {
@@ -213,7 +187,6 @@ tetris_rotate(struct tetris *t) {
 
 void
 tetris_gravity(struct tetris *t) {
-    int x,y;
     t->y++;
     if (tetris_hittest(t)) {
         t->y--;
@@ -314,6 +287,5 @@ tetris_run(int w, int h) {
     tetris_print(&t);
     printf("*** GAME OVER ***\n");
 
-    tetris_clean(&t);
     tetris_cleanup_io();
 }

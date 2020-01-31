@@ -1,16 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <tetris.h>
 #include <termios.h>
 #include <signal.h>
 #include <time.h>
 #include <fcntl.h>
 
+#include "tetris.h"
+#include "randoms.h"
+
 struct tetris_level {
     int score;
     int nsec;
 };
-
 
 struct tetris_block blocks[] =
 {
@@ -143,7 +144,7 @@ tetris_hittest(struct tetris *t) {
 
 void
 tetris_new_block(struct tetris *t) {
-    t->current=blocks[random()%TETRIS_PIECES];
+    t->current=blocks[RANDOM()];
     t->x=(t->w/2) - (t->current.w/2);
     t->y=0;
     if (tetris_hittest(t)) {
@@ -245,7 +246,6 @@ tetris_run(int w, int h) {
     int count=0;
     tetris_set_ioconfig();
     tetris_init(&t, w, h);
-    srand(time(NULL));
 
     tm.tv_sec=0;
     tm.tv_nsec=1000000;

@@ -50,7 +50,7 @@ const uint32_t rand_len = sizeof(randoms) / sizeof(randoms[0]);
 int
 RANDOM(void)
 {
-    static int idx = 0;
+    static uint32_t idx = 0;
     if (idx >= rand_len)
         idx = 0;
     return randoms[idx++];

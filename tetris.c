@@ -1,17 +1,13 @@
+#include "ARMCM0plus.h"
 #include "tetris.h"
 #include "randoms.h"
-#include <fcntl.h>
-#include <signal.h>
 #include <stdbool.h>
-#include <stdio.h>
 #include <stdlib.h>
-#include <termios.h>
-#include <time.h>
-
+#include "SEGGER_RTT.h"
 #define ASSERT(x)                                                              \
     do {                                                                       \
         if (!(x)) {                                                            \
-            printf("assert failed! %s %d\n", __FUNCTION__, __LINE__);          \
+            SEGGER_RTT_printf(0, "assert failed! %s %d\n", __FUNCTION__, __LINE__);          \
             while (1)                                                          \
                 ;                                                              \
         }                                                                      \
@@ -27,13 +23,13 @@
 static inline void
 move_cursor(int L, int C)
 {
-    printf("\033[%d;%dH", L, C);
+    SEGGER_RTT_printf(0, "\033[%d;%dH", L, C);
 }
 
 static inline void
 clear_screen(void)
 {
-    puts("\033[2J");
+    SEGGER_RTT_WriteString(0, "\033[2J");
 }
 
 #define COLOR_STR "\033[%dm"
@@ -46,9 +42,9 @@ struct tetris_level
 };
 
 struct tetris_block blocks[] = {
-    { { "##", "##" }, 2, 2 },       { { " X ", "XXX" }, 3, 2 },
-    { { "@@@@" }, 4, 1 },           { { "OO", "O ", "O " }, 2, 3 },
-    { { "&&", " &", " &" }, 2, 3 }, { { "ZZ ", " ZZ" }, 3, 2 }
+    { { "##", "##" }, 2, 2, NONE },       { { " X ", "XXX" }, 3, 2, NONE },
+    { { "@@@@" }, 4, 1, NONE },           { { "OO", "O ", "O " }, 2, 3, NONE },
+    { { "&&", " &", " &" }, 2, 3, NONE }, { { "ZZ ", " ZZ" }, 3, 2, NONE }
 };
 
 struct tetris_level levels[] = { { 0, 1200000 },    { 1500, 900000 },
@@ -58,32 +54,6 @@ struct tetris_level levels[] = { { 0, 1200000 },    { 1500, 900000 },
 
 #define TETRIS_PIECES (sizeof(blocks) / sizeof(struct tetris_block))
 #define TETRIS_LEVELS (sizeof(levels) / sizeof(struct tetris_level))
-
-struct termios save;
-
-void
-tetris_cleanup_io()
-{
-    tcsetattr(fileno(stdin), TCSANOW, &save);
-}
-
-void
-tetris_signal_quit(int s)
-{
-    tetris_cleanup_io();
-}
-
-void
-tetris_set_ioconfig()
-{
-    struct termios custom;
-    int fd = fileno(stdin);
-    tcgetattr(fd, &save);
-    custom = save;
-    custom.c_lflag &= ~(ICANON | ECHO);
-    tcsetattr(fd, TCSANOW, &custom);
-    fcntl(fd, F_SETFL, fcntl(fd, F_GETFL, 0) | O_NONBLOCK);
-}
 
 void
 tetris_init(struct tetris* t, int w, int h)
@@ -106,29 +76,29 @@ tetris_print(struct tetris* t)
     int x, y;
     move_cursor(0, 0);
 
-    printf("[LEVEL: %d | SCORE: %d]\n", t->level, t->score);
+    SEGGER_RTT_printf(0, "[LEVEL: %d | SCORE: %d]\n", t->level, t->score);
 
     for (y = 0; y < t->h; y++) {
-        printf("!");
+        SEGGER_RTT_WriteString(0, "!");
         for (x = 0; x < t->w; x++) {
             if (x >= t->x && y >= t->y && x < (t->x + t->current.w) &&
                 y < (t->y + t->current.h) &&
                 t->current.data[y - t->y][x - t->x] != ' ')
-                printf(COLOR_STR "[]" END_FMT, t->current.color);
+                SEGGER_RTT_printf(0, COLOR_STR "[]" END_FMT, t->current.color);
             else {
                 if (t->game[x][y].val != ' ') {
                     ASSERT(t->game[x][y].color != NONE);
-                    printf(COLOR_STR "[]" END_FMT, t->game[x][y].color);
+                    SEGGER_RTT_printf(0, COLOR_STR "[]" END_FMT, t->game[x][y].color);
                 } else {
-                    printf("  ");
+                    SEGGER_RTT_WriteString(0, "  ");
                 }
             }
         }
-        printf("!\n");
+        SEGGER_RTT_WriteString(0, "!\n");
     }
     for (x = 0; x < 2 * t->w + 2; x++)
-        printf("~");
-    printf("\n");
+        SEGGER_RTT_WriteString(0, "~");
+    SEGGER_RTT_WriteString(0, "\n");
 }
 
 int
@@ -248,8 +218,7 @@ tetris_check_lines(struct tetris* t)
 int
 tetris_level(struct tetris* t)
 {
-    int i;
-    for (i = 0; i < TETRIS_LEVELS; i++) {
+    for (size_t i = 0; i < TETRIS_LEVELS; i++) {
         if (t->score >= levels[i].score) {
             t->level = i + 1;
         } else
@@ -258,11 +227,11 @@ tetris_level(struct tetris* t)
     return levels[t->level - 1].nsec;
 }
 
+#define BUF_SIZE 512
 void
 tetris_run(int w, int h)
 {
     struct tetris t;
-    char cmd;
     int count = 0;
     bool moved = false;
     tetris_init(&t, w, h);
@@ -283,11 +252,10 @@ tetris_run(int w, int h)
             tetris_gravity(&t);
             tetris_check_lines(&t);
         }
-        if (SEGGER_RTT_HasData()) {
-            const size_t BUF_SIZE = 512;
+        if (SEGGER_RTT_HasData(0)) {
             char buf[BUF_SIZE];
             size_t n = SEGGER_RTT_Read(0, &buf, BUF_SIZE);
-            for (int i = 0; i < n; i++) {
+            for (size_t i = 0; i < n; i++) {
 
                 switch (buf[i]) {
                     case 'a':
@@ -316,5 +284,5 @@ tetris_run(int w, int h)
     }
 
     tetris_print(&t);
-    printf("*** GAME OVER ***\n");
+    SEGGER_RTT_WriteString(0, "*** GAME OVER ***\n");
 }

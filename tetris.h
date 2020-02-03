@@ -3,6 +3,7 @@
 #define GAME_WIDTH 12
 #define GAME_HEIGHT 15
 
+
 typedef enum color_t
 {
     RED = 41,
@@ -13,6 +14,14 @@ typedef enum color_t
     CYAN,
     NONE,
 } color_t;
+
+struct tetris_block
+{
+    char data[5][5];
+    int w;
+    int h;
+    color_t color;
+};
 
 typedef struct tile
 {
@@ -28,13 +37,7 @@ struct tetris
     int level;
     int gameover;
     int score;
-    struct tetris_block
-    {
-        char data[5][5];
-        int w;
-        int h;
-        color_t color;
-    } current;
+    struct tetris_block current;
     int x;
     int y;
 };

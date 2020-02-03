@@ -29,8 +29,9 @@ build startup_ARMCM0plus.o: compile .\Device\ARM\ARMCM0plus\Source\GCC\startup_A
 build system_ARMCM0plus.o: compile .\Device\ARM\ARMCM0plus\Source\system_ARMCM0plus.c
 
 build SEGGER_RTT.o: compile .\RTT\SEGGER_RTT.c
+build SEGGER_RTT_printf.o: compile .\RTT\SEGGER_RTT_printf.c
 
-build alta.elf: link  main.o system_ARMCM0plus.o startup_ARMCM0plus.o SEGGER_RTT.o tetris.o
+build alta.elf: link  main.o system_ARMCM0plus.o startup_ARMCM0plus.o SEGGER_RTT.o  SEGGER_RTT_printf.o tetris.o
 
 build alta.hex: obj_hex alta.elf
 

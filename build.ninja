@@ -1,0 +1,38 @@
+# build.ninja
+
+cc = arm-none-eabi-gcc
+ld = arm-none-eabi-ld
+obj = arm-none-eabi-objcopy
+
+cflags = --std=c99 -Wextra -ffunction-sections -fdata-sections -g -O2 -Werror -mthumb -mcpu=cortex-m0plus -Wall -I .\Device\ARM\ARMCM0plus\Include -I .\CMSIS\Core\Include -I .\RTT\ -I .\Drivers\
+
+ldflags = -O2 -mthumb -mcpu=cortex-m0plus -T .\Device\ARM\ARMCM0plus\Source\GCC\gcc_arm.ld -specs=nano.specs -ffunction-sections -fdata-sections -Wl,--gc-sections
+
+rule compile
+     command = $cc $cflags -c $in -o $out
+
+rule link
+     command = $cc $ldflags $in -o $out
+
+rule obj_hex
+     command = $obj -O ihex $in $out
+
+rule obj_bin
+     command = $obj -O binary $in $out
+
+build main.o: compile main.c
+
+build tetris.o: compile tetris.c
+
+build startup_ARMCM0plus.o: compile .\Device\ARM\ARMCM0plus\Source\GCC\startup_ARMCM0plus.c
+
+build system_ARMCM0plus.o: compile .\Device\ARM\ARMCM0plus\Source\system_ARMCM0plus.c
+
+build SEGGER_RTT.o: compile .\RTT\SEGGER_RTT.c
+
+build alta.elf: link  main.o system_ARMCM0plus.o startup_ARMCM0plus.o SEGGER_RTT.o tetris.o
+
+build alta.hex: obj_hex alta.elf
+
+build alta.bin: obj_bin alta.elf
+

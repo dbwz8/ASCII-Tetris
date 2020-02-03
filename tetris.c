@@ -215,6 +215,14 @@ tetris_check_lines(struct tetris* t)
     }
 }
 
+static volatile int count;
+// called by the Systick timer.
+void
+SysTick_Handler(void)
+{
+    count ++;
+}
+
 int
 tetris_level(struct tetris* t)
 {
@@ -234,6 +242,12 @@ tetris_run(int w, int h)
     struct tetris t;
     int count = 0;
     bool moved = false;
+
+    SEGGER_RTT_Init();
+    __enable_irq();
+    SysTick_Config(10000);
+
+
     tetris_init(&t, w, h);
 
     tetris_new_block(&t);
@@ -242,15 +256,18 @@ tetris_run(int w, int h)
     while (!t.gameover) {
         __WFI();
 
-        if (count % 50 == 0) {
+        if (count == 100 || count == 200) {
             if (moved) {
                 tetris_print(&t);
                 moved = false;
             }
         }
-        if (count % 350 == 0) {
+        if (count == 300) {
             tetris_gravity(&t);
             tetris_check_lines(&t);
+            __disable_irq();
+            count = 0;
+            __enable_irq();
         }
         if (SEGGER_RTT_HasData(0)) {
             char buf[BUF_SIZE];

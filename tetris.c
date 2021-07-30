@@ -45,11 +45,14 @@ void SEGGER_RTT_WriteString(int x,char* y) { printf("%s", y); }
 void __disable_irq() { }
 void __enable_irq() { }
 void SEGGER_RTT_Init() { }
-void SysTick_Config(int x) { }
+
+int tickConfig = 10000;
+void SysTick_Config(int x) { tickConfig = x; }
 
 void __WFI() {
     SleepEx(1,false);
-    count += 10;
+    if (tickConfig >= 10000) count += 10;
+    else                     count += 50;
 }
 
 #endif
@@ -284,6 +287,35 @@ tetris_level(struct tetris* t)
     return levels[t->level - 1].nsec;
 }
 
+void exeCmd(char chr,struct tetris* t,bool* moved,bool* loop) {
+    switch (chr) {
+        case 'a':
+            *moved = true;
+            t->x--;
+            if (tetris_hittest(t))
+                t->x++;
+            return;
+        case 'd':
+            *moved = true;
+            t->x++;
+            if (tetris_hittest(t))
+                t->x--;
+            return;
+        case 's':
+            *moved = true;
+            tetris_gravity(t);
+            return;
+        case 'w':
+            *moved = true;
+            tetris_rotate(t);
+            return;
+        case 'l': // Loop execution
+            *loop = true;
+            SysTick_Config(2000);
+            return;
+    }
+}
+
 #define BUF_SIZE 512
 void
 tetris_run(int w, int h)
@@ -291,6 +323,7 @@ tetris_run(int w, int h)
     struct tetris t;
     count = 0;
     bool moved = false;
+    bool loop  = false;
 
 #ifndef ARM
     setVT100();
@@ -300,60 +333,47 @@ tetris_run(int w, int h)
     __enable_irq();
     SysTick_Config(10000);
 
+    do {
+        tetris_init(&t, w, h);
 
-    tetris_init(&t, w, h);
+        tetris_new_block(&t);
+        clear_screen();
 
-    tetris_new_block(&t);
-    clear_screen();
+        while (!t.gameover) {
+            __WFI();
 
-    while (!t.gameover) {
-        __WFI();
-
-        if (count == 100 || count == 200) {
-            if (moved) {
-                tetris_print(&t);
-                moved = false;
-            }
-        }
-        if (count == 300) {
-            tetris_gravity(&t);
-            tetris_check_lines(&t);
-            __disable_irq();
-            count = 0;
-            __enable_irq();
-            tetris_print(&t);
-        }
-        if (SEGGER_RTT_HasData(0)) {
-            char buf[BUF_SIZE];
-            size_t n = SEGGER_RTT_Read(0, (char*)buf, BUF_SIZE);
-            for (size_t i = 0; i < n; i++) {
-
-                switch (buf[i]) {
-                    case 'a':
-                        moved = true;
-                        t.x--;
-                        if (tetris_hittest(&t))
-                            t.x++;
-                        break;
-                    case 'd':
-                        moved = true;
-                        t.x++;
-                        if (tetris_hittest(&t))
-                            t.x--;
-                        break;
-                    case 's':
-                        moved = true;
-                        tetris_gravity(&t);
-                        break;
-                    case 'w':
-                        moved = true;
-                        tetris_rotate(&t);
-                        break;
+            if (count == 100 || count == 200) {
+                if (moved) {
+                    tetris_print(&t);
+                    moved = false;
                 }
             }
-        }
-    }
+            if (count == 300) {
+                tetris_gravity(&t);
+                tetris_check_lines(&t);
+                __disable_irq();
+                count = 0;
+                __enable_irq();
+                tetris_print(&t);
+            }
 
-    tetris_print(&t);
-    SEGGER_RTT_WriteString(0, "*** GAME OVER ***\n");
+            const char cmds[] = {'a','w','d','a','d','s'};
+
+            if (loop && count % 100 == 0) {
+                char cmd = cmds[RANDOM()];
+                exeCmd(cmd,&t,&moved,&loop);
+            }
+
+            if (SEGGER_RTT_HasData(0)) {
+                char buf[BUF_SIZE];
+                size_t n = SEGGER_RTT_Read(0, (char*)buf, BUF_SIZE);
+                for (size_t i = 0; i < n; i++) {
+                    exeCmd(buf[i],&t,&moved,&loop);
+            }
+        }
+
+        tetris_print(&t);
+        SEGGER_RTT_WriteString(0, "*** GAME OVER ***\n");
+        }
+    } while (loop);
 }

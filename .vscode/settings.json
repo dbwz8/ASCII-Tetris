@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "conio.h": "c",
-        "time.h": "c"
+        "time.h": "c",
+        "randoms.h": "c"
     }
 }

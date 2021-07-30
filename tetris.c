@@ -1,9 +1,59 @@
-#include "ARMCM0plus.h"
 #include "tetris.h"
 #include "randoms.h"
 #include <stdbool.h>
 #include <stdlib.h>
+
+static volatile int count;
+
+#ifdef ARM
+#include "ARMCM0plus.h"
 #include "SEGGER_RTT.h"
+
+
+#else //DESKTOP
+
+#include <stdio.h>
+#include <stdarg.h>
+#include <conio.h>
+#include <synchapi.h>
+#include <windows.h>
+#include <wchar.h>
+
+// Windows VT100 handling
+#define ENABLE_VIRTUAL_TERMINAL_PROCESSING 4
+
+void setVT100() {
+    HANDLE hOut     = GetStdHandle(STD_OUTPUT_HANDLE);
+    DWORD dwMode    = 0;
+    GetConsoleMode(hOut, &dwMode);
+    dwMode         |= ENABLE_VIRTUAL_TERMINAL_PROCESSING;
+    SetConsoleMode(hOut, dwMode);
+}
+
+int SEGGER_RTT_HasData(int x) { return kbhit(); }
+void SEGGER_RTT_printf(int x,char* fmt,...) { 
+    va_list args;
+    va_start (args, fmt);
+    vprintf (fmt, args);
+    va_end (args);
+}
+size_t SEGGER_RTT_Read(int offset,char* buf,int bufSiz) {
+    *buf = getch();
+    return 1;
+}
+void SEGGER_RTT_WriteString(int x,char* y) { printf("%s", y); }
+void __disable_irq() { }
+void __enable_irq() { }
+void SEGGER_RTT_Init() { }
+void SysTick_Config(int x) { }
+
+void __WFI() {
+    SleepEx(1,false);
+    count += 10;
+}
+
+#endif
+
 #define ASSERT(x)                                                              \
     do {                                                                       \
         if (!(x)) {                                                            \
@@ -215,12 +265,11 @@ tetris_check_lines(struct tetris* t)
     }
 }
 
-static volatile int count;
 // called by the Systick timer.
 void
 SysTick_Handler(void)
 {
-    count ++;
+    count++;
 }
 
 int
@@ -240,8 +289,12 @@ void
 tetris_run(int w, int h)
 {
     struct tetris t;
-    int count = 0;
+    count = 0;
     bool moved = false;
+
+#ifndef ARM
+    setVT100();
+#endif
 
     SEGGER_RTT_Init();
     __enable_irq();
@@ -268,10 +321,11 @@ tetris_run(int w, int h)
             __disable_irq();
             count = 0;
             __enable_irq();
+            tetris_print(&t);
         }
         if (SEGGER_RTT_HasData(0)) {
             char buf[BUF_SIZE];
-            size_t n = SEGGER_RTT_Read(0, &buf, BUF_SIZE);
+            size_t n = SEGGER_RTT_Read(0, (char*)buf, BUF_SIZE);
             for (size_t i = 0; i < n; i++) {
 
                 switch (buf[i]) {

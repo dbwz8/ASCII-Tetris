@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#ifdef ARM
 #include "alta_gpio.h"
 
 int
@@ -16,6 +17,15 @@ main(void)
     tetris_run(GAME_WIDTH, GAME_HEIGHT);
     return EXIT_SUCCESS;
 }
+
+#else //DESKTOP
+int
+main(void)
+{
+    tetris_run(GAME_WIDTH, GAME_HEIGHT);
+    return 0;
+}
+#endif
 
 /*
 

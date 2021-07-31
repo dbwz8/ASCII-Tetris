@@ -4,6 +4,23 @@ width   = 12
 height  = 15
 font    = ('Courier New', 16)
 bg      = 'gray'
+colors  = [bg, 'gold', 'blue', 'tomato', 'red', 'green', 'purple', 'brown']
+bitmap  = [ 0,0,0,0,0,1,0,0,0,0,0,0,
+            0,0,0,0,0,1,0,0,0,0,0,0,
+            0,0,0,0,0,1,1,0,0,0,0,0,
+            0,0,0,0,0,0,0,0,0,0,0,0,
+            0,0,0,0,0,0,0,0,0,0,0,0,
+            0,0,0,0,0,0,0,0,0,0,0,0,
+            0,0,0,0,0,0,0,0,0,0,0,0,
+            0,0,0,0,0,0,0,0,0,0,0,0,
+            0,0,0,0,0,7,7,0,0,0,0,0,
+            0,0,0,0,0,7,7,6,0,0,0,0,
+            0,0,0,0,4,4,0,6,0,0,0,0,
+            0,0,0,0,3,4,0,6,0,0,0,0,
+            0,1,1,0,3,4,0,6,0,0,0,0,
+            0,1,2,2,3,0,5,5,0,0,0,0,
+            0,1,2,2,3,0,5,5,0,0,0,0,
+            ]
 
 def T(key, text=None, color='white', size=(None, None)):
     if text == None:
@@ -20,20 +37,20 @@ def B(text, key, color=bg, width=16):
         bind_return_key=False, focus=False,pad=((0,0),(0,0)))
 
 layout1     = []
-for i in range(height):
+for y in range(height):
     row     = []
-    for j in range(width):
-        nam     = f'{i},{j}'
-        row.append(B('  ',nam,color=bg,width=2))
+    for x in range(width):
+        nam     = f'{y},{x}'
+        row.append(B('  ',key=nam,color=bg,width=2))
     layout1.append(row)
 
 layout2 = [[M('Score')], [T('Score', text='000000', size=(16, 1))],
            [M('', bg=bg)],
            [M('Level')], [T('Level', text='00', size=(16, 1))],
            [M('', bg=bg)],
-           [M('Left:Move Left')], [M('Right:Move Right')], [M('Down:Move Down')],
-           [M('Up:Rotate')], [M('Space:Drop')], [M('ESC:Pause')],
-           [M('', bg=bg)], [M(' ', bg=bg)],
+           [M('a:Move Left')], [M('s:Move Down')], [M('d:Move Right')],
+           [M('w:Rotate')], [M('l:Loop')],
+           [M(' ', bg=bg)], [M(' ', bg=bg)],
            [B('New Game', 'New')], [B('Game Pause', 'Pause')],
            [B('Game Over', 'Over')]]
            
@@ -48,6 +65,13 @@ layout = [[frame1, frame2]]
 window = sg.Window('Tetris Game', layout=layout, finalize=True,
                    use_default_focus=False, return_keyboard_events=True,
                    background_color=bg)
+def draw(bm):
+    for y in range(height):
+        for x in range(width):
+            window[f'{y},{x}'].Update(button_color=colors[bm[y*width+x]])
+
+draw(bitmap)
+
 while True:
 
     event, values = window.read(timeout=10)

@@ -311,6 +311,9 @@ void exeCmd(char chr,struct tetris* t,bool* moved,bool* loop) {
             return;
         case 'l': // Loop execution
             *loop = true;
+            __disable_irq();
+            count = 0;
+            __enable_irq();
             SysTick_Config(2000);
             return;
     }

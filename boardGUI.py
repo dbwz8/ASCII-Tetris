@@ -1,4 +1,5 @@
 import PySimpleGUI as sg
+from pathlib import Path
 
 width   = 12
 height  = 15
@@ -7,38 +8,33 @@ bg      = 'gray'
 colors  = [bg, 'gold', 'blue', 'tomato', 'red', 'green', 'purple', 'brown']
 
 class Bitmap:
-    def __init__(self,height,width):
+    def __init__(self,height,width,fileName):
         self.height = height
         self.width  = width
-        self.row    = self.height-1
-        self.base   = [ 
-            0,0,0,0,0,0,0,0,0,0,0,0,
-            0,0,0,0,0,0,0,0,0,0,0,0,
-            0,0,0,0,0,0,0,0,0,0,0,0,
-            0,0,0,0,0,0,0,0,0,0,0,0,
-            0,0,0,0,0,0,0,0,0,0,0,0,
-            0,0,0,0,0,0,0,0,0,0,0,0,
-            0,0,0,0,0,0,0,0,0,0,0,0,
-            0,0,0,0,0,0,0,0,0,0,0,0,
-            0,0,0,0,0,7,7,0,0,0,0,0,
-            0,0,0,0,0,7,7,6,0,0,0,0,
-            0,0,0,0,4,4,0,6,0,0,0,0,
-            0,0,0,0,3,4,0,6,0,0,0,0,
-            0,1,1,0,3,4,0,6,0,0,0,0,
-            0,1,2,2,3,0,5,5,0,0,0,0,
-            0,1,2,2,3,0,5,5,0,0,0,0,
-            ]
+        self.data   = Path(fileName).read_bytes()
+        self.pos    = 0
+        self.prv    = [1] * (self.height*self.width)
 
     def get(self):
-        self.row += 1
-        if self.row > self.height-2: self.row = 0
-        if self.row == 0: return self.base
+        if self.pos >= len(self.data): self.pos = 0
         
-        bitmap = self.base.copy()
-        for x in range(self.width-4,self.width):
-            bitmap[self.row*self.width+x] = 1
-        bitmap[(self.row+1)*self.width+self.width-1] = 1
+        bitmap = []
+        for y in range(self.height):
+            for x in range(self.width):
+                if self.pos >= len(self.data):  bitmap.append(0)
+                else:                           bitmap.append(self.data[self.pos])
+                self.pos += 1
+
         return bitmap
+
+    def draw(self,bm):
+        i = 0
+        for y in range(height):
+            for x in range(width):
+                if self.prv[i] != bm[i]:
+                    window[f'{y},{x}'].Update(button_color=colors[bm[y*width+x]])
+                i += 1
+        self.prv = bm.copy()
 
 def T(key, text=None, color='white', size=(None, None)):
     if text == None:
@@ -83,16 +79,13 @@ layout = [[frame1, frame2]]
 window = sg.Window('Tetris Game', layout=layout, finalize=True,
                    use_default_focus=False, return_keyboard_events=True,
                    background_color=bg)
-def draw(bm):
-    for y in range(height):
-        for x in range(width):
-            window[f'{y},{x}'].Update(button_color=colors[bm[y*width+x]])
 
-bm  = Bitmap(height,width)
+
+bm  = Bitmap(height,width,'./tetris.bm')
 
 while True:
-    draw(bm.get())
-    event, values = window.read(timeout=300)
+    bm.draw(bm.get())
+    event, values = window.read(timeout=1)
 
     if event in [None, 'Over']:
         break

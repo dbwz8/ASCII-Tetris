@@ -123,10 +123,19 @@ tetris_init(struct tetris* t, int w, int h)
     }
 }
 
+// Output a bitmap entry
 void
-tetris_print(struct tetris* t)
-{
+bmWrite(unsigned char* bm,int y,int x,int scrnColor) {
+    int c   = 1 + scrnColor - RED;
+    if (scrnColor == NONE) c = 0;
+    bm[y*GAME_WIDTH+x] = c;
+}
+
+void
+tetris_print(struct tetris* t) {
     int x, y;
+    unsigned char bm[GAME_HEIGHT*GAME_WIDTH];
+
     move_cursor(0, 0);
 
     SEGGER_RTT_printf(0, "[LEVEL: %d | SCORE: %d]\n", t->level, t->score);
@@ -136,14 +145,17 @@ tetris_print(struct tetris* t)
         for (x = 0; x < t->w; x++) {
             if (x >= t->x && y >= t->y && x < (t->x + t->current.w) &&
                 y < (t->y + t->current.h) &&
-                t->current.data[y - t->y][x - t->x] != ' ')
+                t->current.data[y - t->y][x - t->x] != ' ') {
                 SEGGER_RTT_printf(0, COLOR_STR "[]" END_FMT, t->current.color);
-            else {
+                bmWrite(bm,y,x,t->current.color);
+            } else {
                 if (t->game[x][y].val != ' ') {
                     ASSERT(t->game[x][y].color != NONE);
                     SEGGER_RTT_printf(0, COLOR_STR "[]" END_FMT, t->game[x][y].color);
+                    bmWrite(bm,y,x,t->game[x][y].color);
                 } else {
                     SEGGER_RTT_WriteString(0, "  ");
+                    bmWrite(bm,y,x,NONE);
                 }
             }
         }
@@ -152,6 +164,13 @@ tetris_print(struct tetris* t)
     for (x = 0; x < 2 * t->w + 2; x++)
         SEGGER_RTT_WriteString(0, "~");
     SEGGER_RTT_WriteString(0, "\n");
+
+    // Write out one board to a file, appending
+#ifndef ARM
+    FILE* fOut = fopen("tetris.bm","ab");
+    fwrite(bm,sizeof(bm),1,fOut);
+    fclose(fOut);
+#endif
 }
 
 int
@@ -330,6 +349,7 @@ tetris_run(int w, int h)
 
 #ifndef ARM
     setVT100();
+    remove("tetris.bm");
 #endif
 
     SEGGER_RTT_Init();

@@ -5,9 +5,16 @@ height  = 15
 font    = ('Courier New', 16)
 bg      = 'gray'
 colors  = [bg, 'gold', 'blue', 'tomato', 'red', 'green', 'purple', 'brown']
-bitmap  = [ 0,0,0,0,0,1,0,0,0,0,0,0,
-            0,0,0,0,0,1,0,0,0,0,0,0,
-            0,0,0,0,0,1,1,0,0,0,0,0,
+
+class Bitmap:
+    def __init__(self,height,width):
+        self.height = height
+        self.width  = width
+        self.row    = self.height-1
+        self.base   = [ 
+            0,0,0,0,0,0,0,0,0,0,0,0,
+            0,0,0,0,0,0,0,0,0,0,0,0,
+            0,0,0,0,0,0,0,0,0,0,0,0,
             0,0,0,0,0,0,0,0,0,0,0,0,
             0,0,0,0,0,0,0,0,0,0,0,0,
             0,0,0,0,0,0,0,0,0,0,0,0,
@@ -21,6 +28,17 @@ bitmap  = [ 0,0,0,0,0,1,0,0,0,0,0,0,
             0,1,2,2,3,0,5,5,0,0,0,0,
             0,1,2,2,3,0,5,5,0,0,0,0,
             ]
+
+    def get(self):
+        self.row += 1
+        if self.row > self.height-2: self.row = 0
+        if self.row == 0: return self.base
+        
+        bitmap = self.base.copy()
+        for x in range(self.width-4,self.width):
+            bitmap[self.row*self.width+x] = 1
+        bitmap[(self.row+1)*self.width+self.width-1] = 1
+        return bitmap
 
 def T(key, text=None, color='white', size=(None, None)):
     if text == None:
@@ -70,11 +88,11 @@ def draw(bm):
         for x in range(width):
             window[f'{y},{x}'].Update(button_color=colors[bm[y*width+x]])
 
-draw(bitmap)
+bm  = Bitmap(height,width)
 
 while True:
-
-    event, values = window.read(timeout=10)
+    draw(bm.get())
+    event, values = window.read(timeout=300)
 
     if event in [None, 'Over']:
         break

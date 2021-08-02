@@ -1,3 +1,6 @@
+import sys
+import msvcrt
+from tkinter.constants import S
 import PySimpleGUI as sg
 from pathlib import Path
 
@@ -6,6 +9,19 @@ height  = 15
 font    = ('Courier New', 16)
 bg      = 'gray'
 colors  = [bg, 'gold', 'blue', 'tomato', 'red', 'green', 'purple', 'brown']
+
+class AccumLine:
+    def __init__(self):
+        self.line             = ''
+    def get(self):
+        if msvcrt.kbhit():
+            chr         = str(msvcrt.getch(),'UTF-8')
+            self.line  += chr
+            if chr =='\n': 
+                line        = self.line
+                self.line   = ''
+                return line
+        return None
 
 class Bitmap:
     def __init__(self,height,width,fileName):
@@ -82,9 +98,13 @@ window = sg.Window('Tetris Game', layout=layout, finalize=True,
 
 
 bm  = Bitmap(height,width,'./tetris.bm')
+al  = AccumLine()
 
 while True:
     bm.draw(bm.get())
+    #line    = al.get()
+    #if line: print(f"Got Line: {line}")
+
     event, values = window.read(timeout=1)
 
     if event in [None, 'Over']:

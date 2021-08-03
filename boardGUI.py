@@ -1,5 +1,6 @@
 import sys
 import msvcrt
+import subprocess
 from tkinter.constants import S
 import PySimpleGUI as sg
 from pathlib import Path
@@ -10,38 +11,82 @@ font    = ('Courier New', 16)
 bg      = 'gray'
 colors  = [bg, 'gold', 'blue', 'tomato', 'red', 'green', 'purple', 'brown']
 
-class AccumLine:
+import sys
+import threading
+import time
+import queue
+import re
+
+class NoBlock:
+    def add_input(self,input_queue):
+        while True:
+            line    = self.pipe.stdout.readline().rstrip()
+            if len(line) > 0: input_queue.put(line)
+
     def __init__(self):
-        self.line             = ''
-    def get(self):
-        if msvcrt.kbhit():
-            chr         = str(msvcrt.getch(),'UTF-8')
-            self.line  += chr
-            if chr =='\n': 
-                line        = self.line
-                self.line   = ''
-                return line
+        self.pipe                   = subprocess.Popen('tetrisGame.exe',stdout=subprocess.PIPE,bufsize=1,universal_newlines=True)
+        self.input_queue            = queue.Queue()
+        self.input_thread           = threading.Thread(target=self.add_input, args=(self.input_queue,))
+        self.input_thread.daemon    = True
+        self.input_thread.start()
+
+    def getLine(self):
+        if not self.input_queue.empty():
+            line    = self.input_queue.get()
+            return line
         return None
 
 class Bitmap:
-    def __init__(self,height,width,fileName):
-        self.height = height
-        self.width  = width
-        self.data   = Path(fileName).read_bytes()
-        self.pos    = 0
-        self.prv    = [1] * (self.height*self.width)
+    def __init__(self,height,width,fileName=None):
+        self.height     = height
+        self.width      = width
+        self.fileName   = fileName
+        self.prv        = [1] * (self.height*self.width)
+        self.pos        = 0
+        if self.fileName is not None:
+            self.data   = Path(fileName).read_bytes()
+        else:
+            self.nb     = NoBlock()
+            self.re     = re.compile(r'^(\d+):(\d+)$')
+            self.y      = 0
+            self.bm     = []
 
     def get(self):
-        if self.pos >= len(self.data): self.pos = 0
+        if self.fileName is not None:
+            if self.pos >= len(self.data): self.pos = 0
         
-        bitmap = []
-        for y in range(self.height):
-            for x in range(self.width):
-                if self.pos >= len(self.data):  bitmap.append(0)
-                else:                           bitmap.append(self.data[self.pos])
-                self.pos += 1
+            bitmap = []
+            for y in range(self.height):
+                for x in range(self.width):
+                    if self.pos >= len(self.data):  bitmap.append(0)
+                    else:                           bitmap.append(self.data[self.pos])
+                    self.pos += 1
+            return bitmap
+        else:
+            line        = self.nb.getLine()
+            if line is None: return None
+            #print(f'@@@DBG: line={line}')
+            m       = self.re.match(line)
+            if m is None: return None
+            y       = int(m.group(1))
+            if y != self.y:
+                self.bm = []
+                self.y  = 0
+                return None
 
-        return bitmap
+            for itm in m.group(2):
+                self.bm.append(int(itm))
+
+            self.y += 1
+            if self.y == self.height:
+                self.pos += 1
+                print(f"@@@DBG: return BM {self.pos}")
+                bm      = self.bm
+                self.bm = []
+                self.y  = 0
+                return bm
+            else:
+                return None
 
     def draw(self,bm):
         i = 0
@@ -97,13 +142,15 @@ window = sg.Window('Tetris Game', layout=layout, finalize=True,
                    background_color=bg)
 
 
-bm  = Bitmap(height,width,'./tetris.bm')
-al  = AccumLine()
+# Bitmap input or pipe
+#bm  = Bitmap(height,width,'./tetris.bm')
+bm  = Bitmap(height,width)
+
+nb  = NoBlock()
 
 while True:
-    bm.draw(bm.get())
-    #line    = al.get()
-    #if line: print(f"Got Line: {line}")
+    bitmap  = bm.get()
+    if bitmap != None: bm.draw(bitmap)
 
     event, values = window.read(timeout=1)
 

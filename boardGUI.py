@@ -80,7 +80,7 @@ class Bitmap:
             self.y += 1
             if self.y == self.height:
                 self.pos += 1
-                print(f"@@@DBG: return BM {self.pos}")
+                #print(f"@@@DBG: return BM {self.pos}")
                 bm      = self.bm
                 self.bm = []
                 self.y  = 0

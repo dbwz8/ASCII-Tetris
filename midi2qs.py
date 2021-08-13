@@ -7,7 +7,6 @@ mid     = MidiFile("John_williams_-_Star_Wars_Cello_Bass_Duet.mid")
 dic     = {}
 noteMin = 127
 noteMax = 0
-timeMin = 9999
 for _, track in enumerate(mid.tracks):
     curTime     = 0
     for msg in track:
@@ -25,16 +24,70 @@ for _, track in enumerate(mid.tracks):
             key         = (curTime,msg.channel,play)
             dic[key]    = msg.time,msg.note
 
-            if msg.time > 0 and msg.time < timeMin:
-                timeMin = msg.time
-
 # Split out into channels
 if noteMax-noteMin > 63: print(f"*** WARNING *** Note range = {noteMax-noteMin}")
 itms        = sorted(dic.items(),key=lambda ele: ele[0])
-itms        = [((int(t/(timeMin/5.0)),c,p),(d,n-noteMin)) for ((t,c,p),(d,n)) in itms]
+itms        = [((t,c,p),(d,n-noteMin)) for ((t,c,p),(d,n)) in itms]
 
-for (t,c,p),(_,n) in itms:
-    print(f'{t:6d},{c}: {p},{n}')
+# Create Q#
+regs        = [0,0]             # Current bits
+play        = [False,False]     # play state
+curTime     = 0
+gates       = []
+
+def doFlips(gate,prv,cur):
+    flips = prv ^ cur
+    for idx,bit in enumerate([1,2,4,8,16,32]):
+        if flips & bit != 0:
+            gates.append((gate,[idx]))
+
+def doDelay(len):
+    hgh = len // 64
+    low = len % 64
+
+    if low != 0: doFlips('H',0,low)
+    if hgh != 0: doFlips('Y',0,hgh)
+
+for (t,c,p),(d,n) in itms:
+    #print(f'#                     {t:6d},{c}: {p:3},{d:4},{n:3}')
+
+    # See if we need to wait
+    if t > curTime:
+        doDelay(curTime-t)
+        curTime     = t
+
+    if c == 0:  gate = 'Z'
+    else:       gate = 'X'
+    # Turn off the current guy?
+    if not p and play[c]:
+        if c == 0: gates.append((gate,[6]))
+        else:      gates.append((gate,[7]))
+        play[c] = p
+
+    elif p and not play[c]:
+        doFlips(gate,regs[c],n)
+        if c == 0: gates.append((gate,[6]))
+        else:      gates.append((gate,[7]))
+        play[c] = p
+        regs[c] = n
+    else:
+        raise(Exception(f"# Got case: c={c} p={p} play={play[c]} n={n} regs={regs[c]}"))
+
+for i in range(1,len(gates)):
+    g0,qs0  = gates[i-1]
+    g1,qs1  = gates[i]
+    totLen  = len(qs0) + len(qs1)
+    if g0[-1] == g1[-1] and totLen < 4:
+        if g0[-1] != 'X' and g0[-1] != 'Y' and g0[-1] != 'Z': continue
+        if totLen == 2: g = 'C' + g0[-1]
+        else:           g = 'CC' + g0[-1]
+        qs = qs0 + qs1
+        gates[i-1] = ('',[])
+        gates[i]   = (g,qs)
+
+gates = [(q,qs) for (q,qs) in gates if len(qs) > 0]
+
+for (q,qs) in gates: print(q,qs)
 
 ############################## Now re-create MIDI file from what we parsed
 
@@ -56,9 +109,7 @@ bpm = 240 # beat per minutes
 track0.append(MetaMessage('set_tempo', tempo=int(1000000*60/bpm), time=0))
 
 # create notes
-mul     = timeMin/5.0
 for (t,c,p),(d,n) in itms:
-    curTime = t-d
     n      += noteMin
     if c == 0: track = track1
     else:      track = track2
@@ -68,9 +119,11 @@ for (t,c,p),(d,n) in itms:
     track.append(Message(mode,channel=c, note=n, velocity=70, time=d))
 
 mid.save('midi2qs.mid')
+print("",flush=True)
 
 # play notes
-for msg in mid:
-    time.sleep(msg.time)
-    if not msg.is_meta:
-        port.send(msg)
+if False:
+    for msg in mid:
+        time.sleep(msg.time)
+        if not msg.is_meta:
+            port.send(msg)

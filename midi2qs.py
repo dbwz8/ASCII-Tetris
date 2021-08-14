@@ -47,10 +47,10 @@ def doDelay(dly):
     hgh = dly // 128
     low = dly % 128
 
-    doFlips('M',3,hgh)
-    gates.append(('M',[8]))
-    doFlips('Y',2,low)
-    gates.append(('Y',[7]))
+    doFlips('S',3,hgh)
+    gates.append(('S',[8]))
+    doFlips('H',2,low)
+    gates.append(('H',[7]))
 
 for (t,c,p),(d,n) in itms:
     print(f'//                     {t:6d},{c}: {p:3},{d:4},{n:3}')
@@ -88,10 +88,10 @@ for i in range(1,len(gates)):
                 rpt = True
                 break
         if rpt: continue
-        if g != 'M':
-            if totLen == 2: g = 'C' + g
-            else:           g = 'CC' + g
+        if totLen == 2: g = 'C' + g
+        else:           g = 'CC' + g
         qs = qs0 + qs1
+        qs.sort()
         gates[i-1] = ('',[])
         gates[i]   = (g,qs)
 
@@ -162,8 +162,8 @@ else:
     for g,qs in gates:
         if g[-1] == 'Z':    c = 0
         elif g[-1] == 'X':  c = 1
-        elif g[-1] == 'Y':  c = 2
-        elif g[-1] == 'M':  c = 3
+        elif g[-1] == 'H':  c = 2
+        elif g[-1] == 'S':  c = 3
         else: raise(Exception(f'Unexpected gate: {g}'))
 
         for q in qs:
@@ -176,9 +176,9 @@ else:
                 if c == 0: track = track1
                 else:      track = track2
                 track.append(Message(mode,channel=c, note=regs[c], velocity=70, time=delay))
-            elif g[-1] == 'Y':
+            elif g[-1] == 'H':
                 delay = (delay & 0x3F80) | regs[c]
-            elif g[-1] == 'M':
+            elif g[-1] == 'S':
                 delay = (delay & 0x07F) | (regs[c] << 7)
             else: raise(Exception(f"Unexpected gate: {g}"))
 

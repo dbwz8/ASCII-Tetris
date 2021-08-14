@@ -45,11 +45,11 @@ def doDelay(len):
     hgh = len // 64
     low = len % 64
 
-    if low != 0: doFlips('H',0,low)
-    if hgh != 0: doFlips('Y',0,hgh)
+    if low != 0: doFlips('Y',regs[0],low)
+    if hgh != 0: doFlips('M',regs[0],hgh)
 
 for (t,c,p),(d,n) in itms:
-    #print(f'#                     {t:6d},{c}: {p:3},{d:4},{n:3}')
+    print(f'#                     {t:6d},{c}: {p:3},{d:4},{n:3}')
 
     # See if we need to wait
     if t > curTime:
@@ -65,7 +65,7 @@ for (t,c,p),(d,n) in itms:
         play[c] = p
 
     elif p and not play[c]:
-        doFlips(gate,regs[c],n)
+        doFlips(gate,regs[0],n)
         if c == 0: gates.append((gate,[6]))
         else:      gates.append((gate,[7]))
         play[c] = p
@@ -73,14 +73,22 @@ for (t,c,p),(d,n) in itms:
     else:
         raise(Exception(f"# Got case: c={c} p={p} play={play[c]} n={n} regs={regs[c]}"))
 
+# Collapse gates together
 for i in range(1,len(gates)):
     g0,qs0  = gates[i-1]
     g1,qs1  = gates[i]
     totLen  = len(qs0) + len(qs1)
-    if g0[-1] == g1[-1] and totLen < 4:
-        if g0[-1] != 'X' and g0[-1] != 'Y' and g0[-1] != 'Z': continue
-        if totLen == 2: g = 'C' + g0[-1]
-        else:           g = 'CC' + g0[-1]
+    g       = g0[-1]
+    if g == g1[-1] and totLen < 4:
+        rpt = False
+        for q in qs0:
+            if q in qs1: 
+                rpt = True
+                break
+        if rpt: continue
+        if g != 'M':
+            if totLen == 2: g = 'C' + g
+            else:           g = 'CC' + g
         qs = qs0 + qs1
         gates[i-1] = ('',[])
         gates[i]   = (g,qs)

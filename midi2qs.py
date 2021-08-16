@@ -155,7 +155,7 @@ if False:
         track.append(Message(mode,channel=c, note=n, velocity=70, time=d))
 
 # create notes from Q# circuit
-else:
+if False:
     regs    = [0,0,0,0] # Z,X,Y,M
     play    = [0,0]
     delay   = 0
@@ -182,10 +182,50 @@ else:
                 delay = (delay & 0x07F) | (regs[c] << 7)
             else: raise(Exception(f"Unexpected gate: {g}"))
 
+# Try reading back the compiled Q# code and create the midi file
+if True:
+    regs    = [0,0,0,0] # Z,X,Y,M
+    play    = [0,0]
+    delay   = 0
+    with open("compiledQS.log","r") as inp:
+        while True:
+            line    = inp.readline()
+            if not line: break
+            if len(line) != 10: continue
+
+            qs = []
+            g  = '?'
+            for i in range(9):
+                if line[i] == 'C':
+                    qs.append(i)
+                else:
+                    for j,tst in enumerate(['Z','X','H','S']):
+                        if line[i] == tst:
+                            qs.append(i)
+                            g = tst
+                            c = j
+                            break
+            if len(qs) > 0 and g != '?':
+                for q in qs:
+                    if q < 7: regs[c] ^= 1 << q
+                    elif g == 'X' or g == 'Z':
+                        play[c]    ^= 1
+                        if play[c]: mode = 'note_on'
+                        else:       mode = 'note_off'
+                        print(f'Message({mode},channel={c}, note={regs[c]}, velocity=70, time={delay})')
+                        if c == 0: track = track1
+                        else:      track = track2
+                        track.append(Message(mode,channel=c, note=regs[c], velocity=70, time=delay))
+                    elif g == 'H':
+                        delay = (delay & 0x3F80) | regs[c]
+                    elif g == 'S':
+                        delay = (delay & 0x07F) | (regs[c] << 7)
+                    else: raise(Exception(f"Unexpected gate: {g}"))
+
 mid.save('midi2qs.mid')
 
 # play notes
-if False:
+if True:
     for msg in mid:
         time.sleep(msg.time)
         if not msg.is_meta:

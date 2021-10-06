@@ -25,75 +25,70 @@ itms        = sorted(dic.items(),key=lambda ele: ele[0])
 itms        = [((t,c,p),(d,n)) for ((t,c,p),(d,n)) in itms]
 
 # Create Q#
-regs        = [0,0,0,0]         # Z,X,Y,M
+regs        = 0                 # Global register
 play        = [False,False]     # play state
 curTime     = [0,0]             # Time on each channel
 gates       = []
 
-def doFlips(gate,chan,cur):
-    prv         = regs[chan]
-    didFlips    = False
-    flips       = prv ^ cur
-    for idx,bit in enumerate([1,2,4,8,16,32,64]):
-        if flips & bit != 0:
-            gates.append((gate,[idx]))
-            didFlips = True
-    regs[chan]  = cur
-    return didFlips
-
-def doDelay(dly):
+def doFlips(gate,cur):
     global regs
 
-    hgh = dly // 128
-    low = dly % 128
+    if regs & 0x80 == 0: cur |= 0x80      # Always flip top bit
+    prv         = regs
+    flips       = prv ^ cur
+    if flips == 0: raise(Exception("Should always have at least 1 flip for top bit"))
+    for idx,bit in enumerate([1,2,4,8,16,32,64,128]):
+        if flips & bit != 0:
+            gates.append((gate,[idx]))
+            regs ^= bit
+    
+def doDelay(chan,n):
+    hgh = (n >> 6) & 0x7F
+    low = n & 0x3F
+    if chan: low |= 0x40
 
-    doFlips('S',3,hgh)
-    gates.append(('S',[8]))
-    doFlips('H',2,low)
-    gates.append(('H',[7]))
+    doFlips('Z',hgh)
+    doFlips('X',low)
+
+def doNote(chan,n):    
+    if chan == 0:   gate = 'H'
+    else:           gate = 'S'
+    doFlips(gate,n & 0x7F)
 
 for (t,c,p),(d,n) in itms:
+
     print(f'//                     {t:6d},{c}: {p:3},{d:4},{n:3}')
 
-    doDelay(t-curTime[c])
+    doDelay(c,t-curTime[c])
     curTime[c]      =  t
 
-    if c == 0:  gate = 'Z'
-    else:       gate = 'X'
-
     # Turn off the current guy?
-    if not p and play[c]:
-        if c == 0: gates.append((gate,[7]))
-        else:      gates.append((gate,[8]))
-        play[c] = p
-
-    elif p and not play[c]:
-        doFlips(gate,c,n)
-        if c == 0: gates.append((gate,[7]))
-        else:      gates.append((gate,[8]))
+    if (not p and play[c]) or (p and not play[c]):
+        doNote(c,n)
         play[c] = p
     else:
         raise(Exception(f"# Got case: c={c} p={p} play={play[c]} n={n} regs={regs}"))
 
 # Collapse gates together
-for i in range(1,len(gates)):
-    g0,qs0  = gates[i-1]
-    g1,qs1  = gates[i]
-    totLen  = len(qs0) + len(qs1)
-    g       = g0[-1]
-    if g == g1[-1] and totLen < 4:
-        rpt = False
-        for q in qs0:
-            if q in qs1: 
-                rpt = True
-                break
-        if rpt: continue
-        if totLen == 2: g = 'C' + g
-        else:           g = 'CC' + g
-        qs = qs0 + qs1
-        qs.sort()
-        gates[i-1] = ('',[])
-        gates[i]   = (g,qs)
+if True:
+    for i in range(1,len(gates)):
+        g0,qs0  = gates[i-1]
+        g1,qs1  = gates[i]
+        totLen  = len(qs0) + len(qs1)
+        g       = g0[-1]
+        if g == g1[-1] and totLen < 4:
+            rpt = False
+            for q in qs0:
+                if q in qs1: 
+                    rpt = True
+                    break
+            if rpt: continue
+            if totLen == 2: g = 'C' + g
+            else:           g = 'CC' + g
+            qs = qs0 + qs1
+            qs.sort()
+            gates[i-1] = ('',[])
+            gates[i]   = (g,qs)
 
 gates = [(q,qs) for (q,qs) in gates if len(qs) > 0]
 
@@ -108,7 +103,7 @@ with open("midi2qs.qs","w") as f:
 
     @EntryPoint()
     operation RunMIDI() : Unit {
-        use qs = Qubit[9];
+        use qs = Qubit[8];
 ''',file=f)
 
     for (g,qs) in gates: 
@@ -116,7 +111,16 @@ with open("midi2qs.qs","w") as f:
         for i,q in enumerate(qs): 
             if i > 0: print(f',qs[{q}]',end='',file=f)
             else:     print(f'qs[{q}]',end='',file=f)
-        print(');',file=f)
+        if False and qs[-1] > 4:
+            if   g == 'X':  str = '    // store low 5 bits'
+            elif g == 'Y':  str = '    // store mid 5 bits'
+            elif g == 'Z':  str = '    // store hgh 5 bits'
+            elif g == 'M':  str = '    // Do Delay'
+            elif g == 'H':  str = '    // Do Chan1'
+            elif g == 'S':  str = '    // Do Chan2'
+        else:
+            str = ''
+        print(f');{str}',file=f)
 
     print('''
         ResetAll(qs);
@@ -154,36 +158,46 @@ if False:
         #print(f'Message({mode},channel={c}, note={n}, velocity=70, time={d})')
         track.append(Message(mode,channel=c, note=n, velocity=70, time=d))
 
-# create notes from Q# circuit
-if False:
-    regs    = [0,0,0,0] # Z,X,Y,M
+# create notes from Q# circuit:
+if True:
+    regs    = 0
     play    = [0,0]
     delay   = 0
+    state   = 0
+    prvTop  = 0
+    chan    = 0
+    note    = 0
     for g,qs in gates:
-        if g[-1] == 'Z':    c = 0
-        elif g[-1] == 'X':  c = 1
-        elif g[-1] == 'H':  c = 2
-        elif g[-1] == 'S':  c = 3
-        else: raise(Exception(f'Unexpected gate: {g}'))
+        for q in qs: regs ^= 1 << q
+        #print(f'@@@DBG g={g} q={q} regs={regs:02x} prvTop={prvTop} state={state} delay={delay} chan={chan} note={note}')
+        if (regs & 0x80) != (prvTop & 0x80):        # Top bit toggles when something to do
+            prvTop  = 0x80 ^ prvTop
+            if state == 0:
+                if g[-1] != 'Z': raise(Exception(f"In wrong state {state} for {g}"))
+                delay   = (regs & 0x7F) << 6
+                state = 1
+            elif state == 1:
+                if g[-1] != 'X': raise(Exception(f"In wrong state {state} for {g}"))
+                delay   |= (regs & 0x3F)
+                if regs & 0x40: chan = 1
+                else:           chan = 0
+                state = 2
+            elif state == 2:
+                if g[-1] != 'H' and g[-1] != 'S': raise(Exception(f"In wrong state {state} for {g}"))
+                note        = regs & 0x7F
+                state       = 0
 
-        for q in qs:
-            if q < 7: regs[c] ^= 1 << q
-            elif g[-1] == 'X' or g[-1] == 'Z':
-                play[c]    ^= 1
-                if play[c]: mode = 'note_on'
-                else:       mode = 'note_off'
-                print(f'Message({mode},channel={c}, note={regs[c]}, velocity=70, time={delay})')
-                if c == 0: track = track1
+                play[chan]    ^= 1
+                if play[chan]:  mode = 'note_on'
+                else:           mode = 'note_off'
+                print(f'Message({mode},channel={chan}, note={note}, velocity=70, time={delay})')
+                if chan == 0: track = track1
                 else:      track = track2
-                track.append(Message(mode,channel=c, note=regs[c], velocity=70, time=delay))
-            elif g[-1] == 'H':
-                delay = (delay & 0x3F80) | regs[c]
-            elif g[-1] == 'S':
-                delay = (delay & 0x07F) | (regs[c] << 7)
-            else: raise(Exception(f"Unexpected gate: {g}"))
+                track.append(Message(mode,channel=chan, note=note, velocity=70, time=delay))
+            else: raise(Exception(f"Unexpected state: {state}"))
 
 # Try reading back the compiled Q# code and create the midi file
-if True:
+if False:
     regs    = [0,0,0,0] # Z,X,Y,M
     play    = [0,0]
     delay   = 0
@@ -195,7 +209,7 @@ if True:
 
             qs = []
             g  = '?'
-            for i in range(9):
+            for i in range(8):
                 if line[i] == 'C':
                     qs.append(i)
                 else:

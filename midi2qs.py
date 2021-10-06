@@ -147,6 +147,10 @@ mid.tracks.append(track2)
 bpm = 240 # beat per minutes
 track0.append(MetaMessage('set_tempo', tempo=int(1000000*60/bpm), time=0))
 
+# Set volume
+track1.append(Message('control_change', channel=0, control=7, value=127, time=0))
+track2.append(Message('control_change', channel=1, control=7, value=127, time=0))
+
 # create notes from parsed info
 if False:
     for (t,c,p),(d,n) in itms:
@@ -158,83 +162,105 @@ if False:
         #print(f'Message({mode},channel={c}, note={n}, velocity=70, time={d})')
         track.append(Message(mode,channel=c, note=n, velocity=70, time=d))
 
-# create notes from Q# circuit:
-if True:
-    regs    = 0
-    play    = [0,0]
-    delay   = 0
-    state   = 0
-    prvTop  = 0
-    chan    = 0
-    note    = 0
-    for g,qs in gates:
-        for q in qs: regs ^= 1 << q
-        #print(f'@@@DBG g={g} q={q} regs={regs:02x} prvTop={prvTop} state={state} delay={delay} chan={chan} note={note}')
-        if (regs & 0x80) != (prvTop & 0x80):        # Top bit toggles when something to do
-            prvTop  = 0x80 ^ prvTop
-            if state == 0:
-                if g[-1] != 'Z': raise(Exception(f"In wrong state {state} for {g}"))
-                delay   = (regs & 0x7F) << 6
-                state = 1
-            elif state == 1:
-                if g[-1] != 'X': raise(Exception(f"In wrong state {state} for {g}"))
-                delay   |= (regs & 0x3F)
-                if regs & 0x40: chan = 1
-                else:           chan = 0
-                state = 2
-            elif state == 2:
-                if g[-1] != 'H' and g[-1] != 'S': raise(Exception(f"In wrong state {state} for {g}"))
-                note        = regs & 0x7F
-                state       = 0
-
-                play[chan]    ^= 1
-                if play[chan]:  mode = 'note_on'
-                else:           mode = 'note_off'
-                print(f'Message({mode},channel={chan}, note={note}, velocity=70, time={delay})')
-                if chan == 0: track = track1
-                else:      track = track2
-                track.append(Message(mode,channel=chan, note=note, velocity=70, time=delay))
-            else: raise(Exception(f"Unexpected state: {state}"))
-
 # Try reading back the compiled Q# code and create the midi file
-if False:
-    regs    = [0,0,0,0] # Z,X,Y,M
-    play    = [0,0]
-    delay   = 0
-    with open("compiledQS.log","r") as inp:
-        while True:
-            line    = inp.readline()
-            if not line: break
-            if len(line) != 10: continue
+class ItmIterGates:
+    def __init__(self):
+        global gates
+        self.itr = iter(gates)
+    def next(self):
+        try:
+            itms = next(self.itr)
+            return '........\n',itms
+        except:
+            return '',None
 
-            qs = []
-            g  = '?'
-            for i in range(8):
-                if line[i] == 'C':
-                    qs.append(i)
-                else:
-                    for j,tst in enumerate(['Z','X','H','S']):
-                        if line[i] == tst:
-                            qs.append(i)
-                            g = tst
-                            c = j
-                            break
-            if len(qs) > 0 and g != '?':
-                for q in qs:
-                    if q < 7: regs[c] ^= 1 << q
-                    elif g == 'X' or g == 'Z':
-                        play[c]    ^= 1
-                        if play[c]: mode = 'note_on'
-                        else:       mode = 'note_off'
-                        print(f'Message({mode},channel={c}, note={regs[c]}, velocity=70, time={delay})')
-                        if c == 0: track = track1
-                        else:      track = track2
-                        track.append(Message(mode,channel=c, note=regs[c], velocity=70, time=delay))
-                    elif g == 'H':
-                        delay = (delay & 0x3F80) | regs[c]
-                    elif g == 'S':
-                        delay = (delay & 0x07F) | (regs[c] << 7)
-                    else: raise(Exception(f"Unexpected gate: {g}"))
+class ItmIterFile:
+    def __init__(self,fName="compiledQS.log"):
+        self.inp = open(fName,"r")
+    def next(self):
+        for line in self.inp:
+            if not line: 
+                self.inp.close()
+                return '',None
+            if len(line) == 9: 
+                qs = []
+                g  = '?'
+                for i in range(8):
+                    if line[i] == 'C':
+                        qs.append(i)
+                    else:
+                        for j,tst in enumerate(['Z','X','H','S']):
+                            if line[i] == tst:
+                                qs.append(i)
+                                g = tst
+                                c = j
+                                break
+                if len(qs) > 0 and g != '?': return line,(g,qs)
+
+# Reconstruct from Q# gates, or from output compiled Q# 
+if False:
+    itmIter     = ItmIterGates()
+else:
+    itmIter     = ItmIterFile()
+
+showEngineGates = True
+
+# Playback states:
+# High 1	Action	                                    Gate
+# --------- ------------------------------------------  ------
+# 0/1	    set hgh 12-6 bits	                        XYZ
+# 0/1	    flag chan on bit 6,set low 0-5, do delay	XYZ
+# 0/1	    do note on 0-7	                            H,S
+
+regs    = 0
+play    = [0,0]
+delay   = 0
+state   = 0
+prvTop  = 0
+chan    = 0
+note    = 0
+while True:
+    try:
+        line,itm     = itmIter.next()
+    except:
+        line,itm    = '',None
+
+    if not itm: break
+    g,qs    = itm
+    if showEngineGates: print(f'{line.strip()}')
+    for q in qs: 
+        regs ^= 1 << q
+        if showEngineGates and q < 7: print(f"    X({q})")
+    #print(f'@@@DBG g={g} q={q} regs={regs:02x} prvTop={prvTop} state={state} delay={delay} chan={chan} note={note}')
+    if (regs & 0x80) != (prvTop & 0x80):        # Top bit toggles when something to do
+        prvTop  = 0x80 ^ prvTop
+        if showEngineGates:
+            print("    ",end='')
+            for idx in range(7): print(f" M({idx})",end=' ')
+            print("")
+        if state == 0:
+            if g[-1] != 'Z': raise(Exception(f"In wrong state {state} for {g}"))
+            delay   = (regs & 0x7F) << 6
+            state = 1
+        elif state == 1:
+            if g[-1] != 'X': raise(Exception(f"In wrong state {state} for {g}"))
+            delay   |= (regs & 0x3F)
+            if regs & 0x40: chan = 1
+            else:           chan = 0
+            state = 2
+        elif state == 2:
+            if g[-1] != 'H' and g[-1] != 'S': raise(Exception(f"In wrong state {state} for {g}"))
+            note        = regs & 0x7F
+            state       = 0
+
+            play[chan]    ^= 1
+            if play[chan]:  mode = 'note_on'
+            else:           mode = 'note_off'
+            print(f'Message({mode},channel={chan}, note={note}, velocity=70, time={delay})')
+            if chan == 0: track = track1
+            else:      track = track2
+            track.append(Message(mode,channel=chan, note=note, velocity=70, time=delay))
+        else: raise(Exception(f"Unexpected state: {state}"))
 
 mid.save('midi2qs.mid')
 

@@ -1,0 +1,1630 @@
+MetaMessage('smpte_offset', frame_rate=25, hours=32, minutes=0, seconds=0, frames=0, sub_frames=0, time=0)
+MetaMessage('time_signature', numerator=1, denominator=4, clocks_per_click=24, notated_32nd_notes_per_beat=8, time=0)
+MetaMessage('key_signature', key='G', time=0)
+MetaMessage('set_tempo', tempo=666669, time=0)
+MetaMessage('time_signature', numerator=4, denominator=4, clocks_per_click=24, notated_32nd_notes_per_beat=8, time=1024)
+MetaMessage('set_tempo', tempo=600001, time=0)
+MetaMessage('set_tempo', tempo=600001, time=2048)
+MetaMessage('set_tempo', tempo=600001, time=2048)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=600001, time=4096)
+MetaMessage('set_tempo', tempo=857139, time=4096)
+MetaMessage('set_tempo', tempo=857139, time=4096)
+MetaMessage('set_tempo', tempo=857139, time=4096)
+MetaMessage('set_tempo', tempo=857139, time=4096)
+MetaMessage('time_signature', numerator=2, denominator=4, clocks_per_click=24, notated_32nd_notes_per_beat=8, time=4096)
+MetaMessage('end_of_track', time=2048)
+MetaMessage('device_name', name='SmartMusic SoftSynth 1', time=0)
+MetaMessage('track_name', name='Cello', time=0)
+program_change channel=0 program=42 time=0
+control_change channel=0 control=7 value=101 time=0
+control_change channel=0 control=10 value=14 time=0
+note_on channel=0 note=50 velocity=101 time=0
+note_off channel=0 note=50 velocity=0 time=341
+note_on channel=0 note=50 velocity=101 time=0
+note_off channel=0 note=50 velocity=0 time=342
+note_on channel=0 note=50 velocity=101 time=0
+note_off channel=0 note=50 velocity=0 time=341
+note_on channel=0 note=55 velocity=101 time=0
+note_off channel=0 note=55 velocity=0 time=2048
+note_on channel=0 note=62 velocity=101 time=0
+note_off channel=0 note=62 velocity=0 time=2048
+note_on channel=0 note=60 velocity=101 time=0
+note_off channel=0 note=60 velocity=0 time=341
+note_on channel=0 note=59 velocity=101 time=0
+note_off channel=0 note=59 velocity=0 time=342
+note_on channel=0 note=57 velocity=101 time=0
+note_off channel=0 note=57 velocity=0 time=341
+note_on channel=0 note=67 velocity=101 time=0
+note_off channel=0 note=67 velocity=0 time=2048
+note_on channel=0 note=62 velocity=101 time=0
+note_off channel=0 note=62 velocity=0 time=1024
+note_on channel=0 note=60 velocity=101 time=0
+note_off channel=0 note=60 velocity=0 time=341
+note_on channel=0 note=59 velocity=101 time=0
+note_off channel=0 note=59 velocity=0 time=342
+note_on channel=0 note=57 velocity=101 time=0
+note_off channel=0 note=57 velocity=0 time=341
+note_on channel=0 note=67 velocity=101 time=0
+note_off channel=0 note=67 velocity=0 time=2048
+note_on channel=0 note=62 velocity=101 time=0
+note_off channel=0 note=62 velocity=0 time=1024
+note_on channel=0 note=60 velocity=101 time=0
+note_off channel=0 note=60 velocity=0 time=341
+note_on channel=0 note=59 velocity=101 time=0
+note_off channel=0 note=59 velocity=0 time=342
+note_on channel=0 note=60 velocity=101 time=0
+note_off channel=0 note=60 velocity=0 time=341
+note_on channel=0 note=57 velocity=101 time=0
+note_off channel=0 note=57 velocity=0 time=2048
+note_on channel=0 note=50 velocity=101 time=0
+note_off channel=0 note=50 velocity=0 time=341
+note_on channel=0 note=50 velocity=101 time=0
+note_off channel=0 note=50 velocity=0 time=342
+note_on channel=0 note=50 velocity=101 time=0
+note_off channel=0 note=50 velocity=0 time=341
+note_on channel=0 note=55 velocity=101 time=0
+note_off channel=0 note=55 velocity=0 time=2048
+note_on channel=0 note=62 velocity=101 time=0
+note_off channel=0 note=62 velocity=0 time=2048
+note_on channel=0 note=60 velocity=101 time=0
+note_off channel=0 note=60 velocity=0 time=341
+note_on channel=0 note=59 velocity=101 time=0
+note_off channel=0 note=59 velocity=0 time=342
+note_on channel=0 note=57 velocity=101 time=0
+note_off channel=0 note=57 velocity=0 time=341
+note_on channel=0 note=67 velocity=101 time=0
+note_off channel=0 note=67 velocity=0 time=2048
+note_on channel=0 note=62 velocity=101 time=0
+note_off channel=0 note=62 velocity=0 time=1024
+note_on channel=0 note=60 velocity=101 time=0
+note_off channel=0 note=60 velocity=0 time=341
+note_on channel=0 note=59 velocity=101 time=0
+note_off channel=0 note=59 velocity=0 time=342
+note_on channel=0 note=57 velocity=101 time=0
+note_off channel=0 note=57 velocity=0 time=341
+note_on channel=0 note=67 velocity=101 time=0
+note_off channel=0 note=67 velocity=0 time=2048
+note_on channel=0 note=62 velocity=101 time=0
+note_off channel=0 note=62 velocity=0 time=1024
+note_on channel=0 note=60 velocity=101 time=0
+note_off channel=0 note=60 velocity=0 time=341
+note_on channel=0 note=59 velocity=101 time=0
+note_off channel=0 note=59 velocity=0 time=342
+note_on channel=0 note=60 velocity=101 time=0
+note_off channel=0 note=60 velocity=0 time=341
+note_on channel=0 note=57 velocity=101 time=0
+note_off channel=0 note=57 velocity=0 time=2048
+note_on channel=0 note=50 velocity=75 time=0
+note_off channel=0 note=50 velocity=0 time=1024
+note_on channel=0 note=52 velocity=75 time=0
+note_off channel=0 note=52 velocity=0 time=1536
+note_on channel=0 note=52 velocity=75 time=0
+note_off channel=0 note=52 velocity=0 time=512
+note_on channel=0 note=60 velocity=75 time=0
+note_off channel=0 note=60 velocity=0 time=512
+note_on channel=0 note=59 velocity=75 time=0
+note_off channel=0 note=59 velocity=0 time=512
+note_on channel=0 note=57 velocity=75 time=0
+note_off channel=0 note=57 velocity=0 time=512
+note_on channel=0 note=55 velocity=75 time=0
+note_off channel=0 note=55 velocity=0 time=512
+note_on channel=0 note=55 velocity=75 time=0
+note_off channel=0 note=55 velocity=0 time=341
+note_on channel=0 note=57 velocity=75 time=0
+note_off channel=0 note=57 velocity=0 time=342
+note_on channel=0 note=59 velocity=75 time=0
+note_off channel=0 note=59 velocity=0 time=341
+note_on channel=0 note=57 velocity=75 time=0
+note_off channel=0 note=57 velocity=0 time=683
+note_on channel=0 note=52 velocity=75 time=0
+note_off channel=0 note=52 velocity=0 time=341
+note_on channel=0 note=54 velocity=75 time=0
+note_off channel=0 note=54 velocity=0 time=1024
+note_on channel=0 note=50 velocity=75 time=0
+note_off channel=0 note=50 velocity=0 time=683
+note_on channel=0 note=50 velocity=75 time=0
+note_off channel=0 note=50 velocity=0 time=341
+note_on channel=0 note=52 velocity=75 time=0
+note_off channel=0 note=52 velocity=0 time=1536
+note_on channel=0 note=52 velocity=75 time=0
+note_off channel=0 note=52 velocity=0 time=512
+note_on channel=0 note=60 velocity=75 time=0
+note_off channel=0 note=60 velocity=0 time=512
+note_on channel=0 note=59 velocity=75 time=0
+note_off channel=0 note=59 velocity=0 time=512
+note_on channel=0 note=57 velocity=75 time=0
+note_off channel=0 note=57 velocity=0 time=512
+note_on channel=0 note=55 velocity=75 time=0
+note_off channel=0 note=55 velocity=0 time=512
+note_on channel=0 note=62 velocity=75 time=0
+note_off channel=0 note=62 velocity=0 time=1024
+note_on channel=0 note=57 velocity=75 time=0
+note_off channel=0 note=57 velocity=0 time=2048
+note_on channel=0 note=60 velocity=62 time=1024
+note_off channel=0 note=60 velocity=0 time=2048
+note_on channel=0 note=57 velocity=62 time=0
+note_off channel=0 note=57 velocity=0 time=2048
+note_on channel=0 note=57 velocity=62 time=0
+note_off channel=0 note=57 velocity=0 time=1024
+note_on channel=0 note=62 velocity=62 time=0
+note_off channel=0 note=62 velocity=0 time=2048
+note_on channel=0 note=50 velocity=62 time=0
+note_off channel=0 note=50 velocity=0 time=1024
+note_on channel=0 note=45 velocity=101 time=0
+note_off channel=0 note=45 velocity=0 time=683
+note_on channel=0 note=47 velocity=101 time=0
+note_off channel=0 note=47 velocity=0 time=341
+note_on channel=0 note=48 velocity=101 time=0
+note_off channel=0 note=48 velocity=0 time=683
+note_on channel=0 note=50 velocity=101 time=0
+note_off channel=0 note=50 velocity=0 time=341
+note_on channel=0 note=51 velocity=101 time=0
+note_off channel=0 note=51 velocity=0 time=683
+note_on channel=0 note=53 velocity=101 time=0
+note_off channel=0 note=53 velocity=0 time=341
+note_on channel=0 note=55 velocity=101 time=0
+note_off channel=0 note=55 velocity=0 time=683
+note_on channel=0 note=57 velocity=101 time=0
+note_off channel=0 note=57 velocity=0 time=341
+note_on channel=0 note=38 velocity=101 time=1024
+note_off channel=0 note=38 velocity=0 time=341
+note_on channel=0 note=38 velocity=101 time=0
+note_off channel=0 note=38 velocity=0 time=342
+note_on channel=0 note=38 velocity=101 time=0
+note_off channel=0 note=38 velocity=0 time=341
+note_on channel=0 note=38 velocity=101 time=0
+note_off channel=0 note=38 velocity=0 time=1024
+note_on channel=0 note=38 velocity=101 time=0
+note_off channel=0 note=38 velocity=0 time=1024
+note_on channel=0 note=38 velocity=101 time=0
+note_off channel=0 note=38 velocity=0 time=1536
+note_on channel=0 note=38 velocity=101 time=0
+note_off channel=0 note=38 velocity=0 time=512
+note_on channel=0 note=45 velocity=101 time=0
+note_off channel=0 note=45 velocity=0 time=1024
+note_on channel=0 note=38 velocity=101 time=0
+note_off channel=0 note=38 velocity=0 time=1024
+note_on channel=0 note=55 velocity=101 time=0
+note_off channel=0 note=55 velocity=0 time=410
+note_on channel=0 note=54 velocity=101 time=614
+note_off channel=0 note=54 velocity=0 time=410
+note_on channel=0 note=52 velocity=101 time=614
+note_off channel=0 note=52 velocity=0 time=410
+note_on channel=0 note=50 velocity=101 time=614
+note_off channel=0 note=50 velocity=0 time=410
+note_on channel=0 note=48 velocity=101 time=614
+note_off channel=0 note=48 velocity=0 time=410
+note_on channel=0 note=47 velocity=101 time=614
+note_off channel=0 note=47 velocity=0 time=410
+note_on channel=0 note=45 velocity=101 time=614
+note_off channel=0 note=45 velocity=0 time=410
+note_on channel=0 note=43 velocity=101 time=614
+note_off channel=0 note=43 velocity=0 time=410
+note_on channel=0 note=48 velocity=101 time=614
+note_off channel=0 note=48 velocity=0 time=410
+note_on channel=0 note=47 velocity=101 time=614
+note_off channel=0 note=47 velocity=0 time=410
+note_on channel=0 note=45 velocity=101 time=614
+note_off channel=0 note=45 velocity=0 time=410
+note_on channel=0 note=43 velocity=101 time=614
+note_off channel=0 note=43 velocity=0 time=410
+note_on channel=0 note=41 velocity=126 time=614
+note_off channel=0 note=41 velocity=0 time=512
+note_on channel=0 note=38 velocity=101 time=512
+note_off channel=0 note=38 velocity=0 time=410
+note_on channel=0 note=38 velocity=101 time=614
+note_off channel=0 note=38 velocity=0 time=341
+note_on channel=0 note=38 velocity=101 time=0
+note_off channel=0 note=38 velocity=0 time=342
+note_on channel=0 note=38 velocity=101 time=0
+note_off channel=0 note=38 velocity=0 time=341
+note_on channel=0 note=38 velocity=101 time=0
+note_off channel=0 note=38 velocity=0 time=512
+note_on channel=0 note=55 velocity=101 time=512
+note_off channel=0 note=55 velocity=0 time=410
+note_on channel=0 note=54 velocity=101 time=614
+note_off channel=0 note=54 velocity=0 time=410
+note_on channel=0 note=52 velocity=101 time=614
+note_off channel=0 note=52 velocity=0 time=410
+note_on channel=0 note=50 velocity=101 time=614
+note_off channel=0 note=50 velocity=0 time=410
+note_on channel=0 note=48 velocity=101 time=614
+note_off channel=0 note=48 velocity=0 time=410
+note_on channel=0 note=47 velocity=101 time=614
+note_off channel=0 note=47 velocity=0 time=410
+note_on channel=0 note=45 velocity=101 time=614
+note_off channel=0 note=45 velocity=0 time=410
+note_on channel=0 note=43 velocity=101 time=614
+note_off channel=0 note=43 velocity=0 time=410
+note_on channel=0 note=48 velocity=101 time=614
+note_off channel=0 note=48 velocity=0 time=410
+note_on channel=0 note=47 velocity=101 time=614
+note_off channel=0 note=47 velocity=0 time=410
+note_on channel=0 note=45 velocity=101 time=614
+note_off channel=0 note=45 velocity=0 time=410
+note_on channel=0 note=43 velocity=101 time=614
+note_off channel=0 note=43 velocity=0 time=410
+note_on channel=0 note=41 velocity=126 time=614
+note_off channel=0 note=41 velocity=0 time=512
+note_on channel=0 note=38 velocity=101 time=512
+note_off channel=0 note=38 velocity=0 time=410
+note_on channel=0 note=38 velocity=101 time=614
+note_off channel=0 note=38 velocity=0 time=341
+note_on channel=0 note=38 velocity=101 time=0
+note_off channel=0 note=38 velocity=0 time=342
+note_on channel=0 note=38 velocity=101 time=0
+note_off channel=0 note=38 velocity=0 time=341
+note_on channel=0 note=38 velocity=101 time=0
+note_off channel=0 note=38 velocity=0 time=512
+note_on channel=0 note=38 velocity=101 time=512
+note_off channel=0 note=38 velocity=0 time=1536
+note_on channel=0 note=38 velocity=101 time=0
+note_off channel=0 note=38 velocity=0 time=512
+note_on channel=0 note=45 velocity=101 time=0
+note_off channel=0 note=45 velocity=0 time=1024
+note_on channel=0 note=38 velocity=101 time=0
+note_off channel=0 note=38 velocity=0 time=1024
+note_on channel=0 note=43 velocity=49 time=0
+note_off channel=0 note=43 velocity=0 time=8192
+note_on channel=0 note=50 velocity=49 time=0
+note_off channel=0 note=50 velocity=0 time=1024
+note_on channel=0 note=50 velocity=49 time=0
+note_off channel=0 note=50 velocity=0 time=1024
+note_on channel=0 note=50 velocity=49 time=0
+note_off channel=0 note=50 velocity=0 time=1024
+note_on channel=0 note=51 velocity=49 time=0
+note_off channel=0 note=51 velocity=0 time=768
+note_on channel=0 note=46 velocity=49 time=0
+note_off channel=0 note=46 velocity=0 time=256
+note_on channel=0 note=42 velocity=49 time=0
+note_off channel=0 note=42 velocity=0 time=1024
+note_on channel=0 note=38 velocity=49 time=0
+note_off channel=0 note=38 velocity=0 time=768
+note_on channel=0 note=46 velocity=49 time=0
+note_off channel=0 note=46 velocity=0 time=256
+note_on channel=0 note=43 velocity=49 time=0
+note_off channel=0 note=43 velocity=0 time=4096
+MetaMessage('end_of_track', time=0)
+MetaMessage('device_name', name='SmartMusic SoftSynth 1', time=0)
+MetaMessage('track_name', name='Double Bass', time=0)
+control_change channel=1 control=0 value=121 time=0
+control_change channel=1 control=32 value=0 time=0
+program_change channel=1 program=43 time=0
+control_change channel=1 control=7 value=101 time=0
+control_change channel=1 control=10 value=120 time=0
+note_on channel=1 note=55 velocity=101 time=1024
+note_off channel=1 note=55 velocity=0 time=410
+note_on channel=1 note=54 velocity=101 time=614
+note_off channel=1 note=54 velocity=0 time=410
+note_on channel=1 note=52 velocity=101 time=614
+note_off channel=1 note=52 velocity=0 time=410
+note_on channel=1 note=50 velocity=101 time=614
+note_off channel=1 note=50 velocity=0 time=410
+note_on channel=1 note=48 velocity=101 time=614
+note_off channel=1 note=48 velocity=0 time=410
+note_on channel=1 note=47 velocity=101 time=614
+note_off channel=1 note=47 velocity=0 time=410
+note_on channel=1 note=45 velocity=101 time=614
+note_off channel=1 note=45 velocity=0 time=410
+note_on channel=1 note=43 velocity=101 time=614
+note_off channel=1 note=43 velocity=0 time=410
+note_on channel=1 note=48 velocity=101 time=614
+note_off channel=1 note=48 velocity=0 time=410
+note_on channel=1 note=47 velocity=101 time=614
+note_off channel=1 note=47 velocity=0 time=410
+note_on channel=1 note=45 velocity=101 time=614
+note_off channel=1 note=45 velocity=0 time=410
+note_on channel=1 note=43 velocity=101 time=614
+note_off channel=1 note=43 velocity=0 time=410
+note_on channel=1 note=53 velocity=126 time=614
+note_off channel=1 note=53 velocity=0 time=512
+note_on channel=1 note=50 velocity=101 time=512
+note_off channel=1 note=50 velocity=0 time=410
+note_on channel=1 note=50 velocity=101 time=614
+note_off channel=1 note=50 velocity=0 time=341
+note_on channel=1 note=50 velocity=101 time=0
+note_off channel=1 note=50 velocity=0 time=342
+note_on channel=1 note=50 velocity=101 time=0
+note_off channel=1 note=50 velocity=0 time=341
+note_on channel=1 note=50 velocity=101 time=0
+note_off channel=1 note=50 velocity=0 time=512
+note_on channel=1 note=55 velocity=101 time=512
+note_off channel=1 note=55 velocity=0 time=410
+note_on channel=1 note=54 velocity=101 time=614
+note_off channel=1 note=54 velocity=0 time=410
+note_on channel=1 note=52 velocity=101 time=614
+note_off channel=1 note=52 velocity=0 time=410
+note_on channel=1 note=50 velocity=101 time=614
+note_off channel=1 note=50 velocity=0 time=410
+note_on channel=1 note=48 velocity=101 time=614
+note_off channel=1 note=48 velocity=0 time=410
+note_on channel=1 note=47 velocity=101 time=614
+note_off channel=1 note=47 velocity=0 time=410
+note_on channel=1 note=45 velocity=101 time=614
+note_off channel=1 note=45 velocity=0 time=410
+note_on channel=1 note=43 velocity=101 time=614
+note_off channel=1 note=43 velocity=0 time=410
+note_on channel=1 note=48 velocity=101 time=614
+note_off channel=1 note=48 velocity=0 time=410
+note_on channel=1 note=47 velocity=101 time=614
+note_off channel=1 note=47 velocity=0 time=410
+note_on channel=1 note=45 velocity=101 time=614
+note_off channel=1 note=45 velocity=0 time=410
+note_on channel=1 note=43 velocity=101 time=614
+note_off channel=1 note=43 velocity=0 time=410
+note_on channel=1 note=53 velocity=126 time=614
+note_off channel=1 note=53 velocity=0 time=512
+note_on channel=1 note=50 velocity=101 time=512
+note_off channel=1 note=50 velocity=0 time=410
+note_on channel=1 note=50 velocity=101 time=614
+note_off channel=1 note=50 velocity=0 time=341
+note_on channel=1 note=50 velocity=101 time=0
+note_off channel=1 note=50 velocity=0 time=342
+note_on channel=1 note=50 velocity=101 time=0
+note_off channel=1 note=50 velocity=0 time=341
+note_on channel=1 note=50 velocity=101 time=0
+note_off channel=1 note=50 velocity=0 time=512
+note_on channel=1 note=38 velocity=75 time=1536
+note_off channel=1 note=38 velocity=0 time=2048
+note_on channel=1 note=38 velocity=75 time=0
+note_off channel=1 note=38 velocity=0 time=1024
+note_on channel=1 note=38 velocity=75 time=0
+note_off channel=1 note=38 velocity=0 time=410
+note_on channel=1 note=38 velocity=75 time=614
+note_off channel=1 note=38 velocity=0 time=2048
+note_on channel=1 note=38 velocity=75 time=0
+note_off channel=1 note=38 velocity=0 time=1024
+note_on channel=1 note=38 velocity=75 time=0
+note_off channel=1 note=38 velocity=0 time=410
+note_on channel=1 note=38 velocity=75 time=614
+note_off channel=1 note=38 velocity=0 time=2048
+note_on channel=1 note=38 velocity=75 time=0
+note_off channel=1 note=38 velocity=0 time=1024
+note_on channel=1 note=34 velocity=94 time=0
+note_off channel=1 note=34 velocity=0 time=512
+note_on channel=1 note=38 velocity=75 time=512
+note_off channel=1 note=38 velocity=0 time=2048
+note_on channel=1 note=38 velocity=88 time=0
+note_off channel=1 note=38 velocity=0 time=1024
+note_on channel=1 note=40 velocity=88 time=0
+note_off channel=1 note=40 velocity=0 time=1536
+note_on channel=1 note=40 velocity=88 time=0
+note_off channel=1 note=40 velocity=0 time=512
+note_on channel=1 note=48 velocity=88 time=0
+note_off channel=1 note=48 velocity=0 time=512
+note_on channel=1 note=47 velocity=88 time=0
+note_off channel=1 note=47 velocity=0 time=512
+note_on channel=1 note=45 velocity=88 time=0
+note_off channel=1 note=45 velocity=0 time=512
+note_on channel=1 note=43 velocity=88 time=0
+note_off channel=1 note=43 velocity=0 time=512
+note_on channel=1 note=43 velocity=88 time=0
+note_off channel=1 note=43 velocity=0 time=341
+note_on channel=1 note=45 velocity=88 time=0
+note_off channel=1 note=45 velocity=0 time=342
+note_on channel=1 note=47 velocity=88 time=0
+note_off channel=1 note=47 velocity=0 time=341
+note_on channel=1 note=45 velocity=88 time=0
+note_off channel=1 note=45 velocity=0 time=683
+note_on channel=1 note=40 velocity=88 time=0
+note_off channel=1 note=40 velocity=0 time=341
+note_on channel=1 note=42 velocity=88 time=0
+note_off channel=1 note=42 velocity=0 time=1024
+note_on channel=1 note=38 velocity=88 time=0
+note_off channel=1 note=38 velocity=0 time=683
+note_on channel=1 note=38 velocity=88 time=0
+note_off channel=1 note=38 velocity=0 time=341
+note_on channel=1 note=55 velocity=101 time=0
+note_off channel=1 note=55 velocity=0 time=683
+note_on channel=1 note=53 velocity=101 time=0
+note_off channel=1 note=53 velocity=0 time=341
+note_on channel=1 note=51 velocity=101 time=0
+note_off channel=1 note=51 velocity=0 time=683
+note_on channel=1 note=50 velocity=101 time=0
+note_off channel=1 note=50 velocity=0 time=341
+note_on channel=1 note=48 velocity=101 time=0
+note_off channel=1 note=48 velocity=0 time=683
+note_on channel=1 note=46 velocity=101 time=0
+note_off channel=1 note=46 velocity=0 time=341
+note_on channel=1 note=45 velocity=101 time=0
+note_off channel=1 note=45 velocity=0 time=683
+note_on channel=1 note=43 velocity=101 time=0
+note_off channel=1 note=43 velocity=0 time=341
+note_on channel=1 note=50 velocity=101 time=0
+note_off channel=1 note=50 velocity=0 time=3072
+note_on channel=1 note=38 velocity=101 time=0
+note_off channel=1 note=38 velocity=0 time=683
+note_on channel=1 note=38 velocity=101 time=0
+note_off channel=1 note=38 velocity=0 time=341
+note_on channel=1 note=40 velocity=101 time=0
+note_off channel=1 note=40 velocity=0 time=1536
+note_on channel=1 note=43 velocity=101 time=0
+note_off channel=1 note=43 velocity=0 time=512
+note_on channel=1 note=48 velocity=101 time=0
+note_off channel=1 note=48 velocity=0 time=1024
+note_on channel=1 note=45 velocity=101 time=0
+note_off channel=1 note=45 velocity=0 time=1024
+note_on channel=1 note=43 velocity=101 time=0
+note_off channel=1 note=43 velocity=0 time=2048
+note_on channel=1 note=50 velocity=101 time=0
+note_off channel=1 note=50 velocity=0 time=2048
+note_on channel=1 note=48 velocity=101 time=0
+note_off channel=1 note=48 velocity=0 time=341
+note_on channel=1 note=47 velocity=101 time=0
+note_off channel=1 note=47 velocity=0 time=342
+note_on channel=1 note=45 velocity=101 time=0
+note_off channel=1 note=45 velocity=0 time=341
+note_on channel=1 note=55 velocity=101 time=0
+note_off channel=1 note=55 velocity=0 time=2048
+note_on channel=1 note=50 velocity=101 time=0
+note_off channel=1 note=50 velocity=0 time=1024
+note_on channel=1 note=48 velocity=101 time=0
+note_off channel=1 note=48 velocity=0 time=341
+note_on channel=1 note=47 velocity=101 time=0
+note_off channel=1 note=47 velocity=0 time=342
+note_on channel=1 note=45 velocity=101 time=0
+note_off channel=1 note=45 velocity=0 time=341
+note_on channel=1 note=55 velocity=101 time=0
+note_off channel=1 note=55 velocity=0 time=2048
+note_on channel=1 note=50 velocity=101 time=0
+note_off channel=1 note=50 velocity=0 time=1024
+note_on channel=1 note=48 velocity=101 time=0
+note_off channel=1 note=48 velocity=0 time=341
+note_on channel=1 note=47 velocity=101 time=0
+note_off channel=1 note=47 velocity=0 time=342
+note_on channel=1 note=48 velocity=101 time=0
+note_off channel=1 note=48 velocity=0 time=341
+note_on channel=1 note=45 velocity=101 time=0
+note_off channel=1 note=45 velocity=0 time=2048
+note_on channel=1 note=38 velocity=101 time=0
+note_off channel=1 note=38 velocity=0 time=341
+note_on channel=1 note=38 velocity=101 time=0
+note_off channel=1 note=38 velocity=0 time=342
+note_on channel=1 note=38 velocity=101 time=0
+note_off channel=1 note=38 velocity=0 time=341
+note_on channel=1 note=43 velocity=101 time=0
+note_off channel=1 note=43 velocity=0 time=2048
+note_on channel=1 note=50 velocity=101 time=0
+note_off channel=1 note=50 velocity=0 time=2048
+note_on channel=1 note=48 velocity=101 time=0
+note_off channel=1 note=48 velocity=0 time=341
+note_on channel=1 note=47 velocity=101 time=0
+note_off channel=1 note=47 velocity=0 time=342
+note_on channel=1 note=45 velocity=101 time=0
+note_off channel=1 note=45 velocity=0 time=341
+note_on channel=1 note=55 velocity=101 time=0
+note_off channel=1 note=55 velocity=0 time=2048
+note_on channel=1 note=50 velocity=101 time=0
+note_off channel=1 note=50 velocity=0 time=1024
+note_on channel=1 note=48 velocity=101 time=0
+note_off channel=1 note=48 velocity=0 time=341
+note_on channel=1 note=47 velocity=101 time=0
+note_off channel=1 note=47 velocity=0 time=342
+note_on channel=1 note=45 velocity=101 time=0
+note_off channel=1 note=45 velocity=0 time=341
+note_on channel=1 note=55 velocity=101 time=0
+note_off channel=1 note=55 velocity=0 time=2048
+note_on channel=1 note=50 velocity=101 time=0
+note_off channel=1 note=50 velocity=0 time=1024
+note_on channel=1 note=48 velocity=101 time=0
+note_off channel=1 note=48 velocity=0 time=341
+note_on channel=1 note=47 velocity=101 time=0
+note_off channel=1 note=47 velocity=0 time=342
+note_on channel=1 note=48 velocity=101 time=0
+note_off channel=1 note=48 velocity=0 time=341
+note_on channel=1 note=45 velocity=101 time=0
+note_off channel=1 note=45 velocity=0 time=2048
+note_on channel=1 note=38 velocity=101 time=0
+note_off channel=1 note=38 velocity=0 time=1024
+note_on channel=1 note=40 velocity=101 time=0
+note_off channel=1 note=40 velocity=0 time=1536
+note_on channel=1 note=43 velocity=101 time=0
+note_off channel=1 note=43 velocity=0 time=512
+note_on channel=1 note=48 velocity=101 time=0
+note_off channel=1 note=48 velocity=0 time=1024
+note_on channel=1 note=45 velocity=101 time=0
+note_off channel=1 note=45 velocity=0 time=1024
+note_on channel=1 note=43 velocity=49 time=0
+note_off channel=1 note=43 velocity=0 time=1024
+note_on channel=1 note=43 velocity=49 time=0
+note_off channel=1 note=43 velocity=0 time=1024
+note_on channel=1 note=43 velocity=49 time=0
+note_off channel=1 note=43 velocity=0 time=1024
+note_on channel=1 note=39 velocity=49 time=0
+note_off channel=1 note=39 velocity=0 time=768
+note_on channel=1 note=46 velocity=49 time=0
+note_off channel=1 note=46 velocity=0 time=256
+note_on channel=1 note=43 velocity=49 time=0
+note_off channel=1 note=43 velocity=0 time=1024
+note_on channel=1 note=39 velocity=49 time=0
+note_off channel=1 note=39 velocity=0 time=768
+note_on channel=1 note=46 velocity=49 time=0
+note_off channel=1 note=46 velocity=0 time=256
+note_on channel=1 note=43 velocity=49 time=0
+note_off channel=1 note=43 velocity=0 time=2048
+note_on channel=1 note=31 velocity=49 time=0
+note_off channel=1 note=31 velocity=0 time=4096
+note_on channel=1 note=39 velocity=49 time=0
+note_off channel=1 note=39 velocity=0 time=1024
+note_on channel=1 note=34 velocity=49 time=0
+note_off channel=1 note=34 velocity=0 time=768
+note_on channel=1 note=30 velocity=49 time=0
+note_off channel=1 note=30 velocity=0 time=256
+note_on channel=1 note=31 velocity=49 time=0
+note_off channel=1 note=31 velocity=0 time=4096
+MetaMessage('end_of_track', time=0)
+//                          0,0:   1,   0, 50
+//                        341,0:   0, 341, 50
+//                        341,0:   1,   0, 50
+//                        683,0:   0, 342, 50
+//                        683,0:   1,   0, 50
+//                       1024,0:   0, 341, 50
+//                       1024,0:   1,   0, 55
+//                       1024,1:   1,1024, 55
+//                       1434,1:   0, 410, 55
+//                       2048,1:   1, 614, 54
+//                       2458,1:   0, 410, 54
+//                       3072,0:   0,2048, 55
+//                       3072,0:   1,   0, 62
+//                       3072,1:   1, 614, 52
+//                       3482,1:   0, 410, 52
+//                       4096,1:   1, 614, 50
+//                       4506,1:   0, 410, 50
+//                       5120,0:   0,2048, 62
+//                       5120,0:   1,   0, 60
+//                       5120,1:   1, 614, 48
+//                       5461,0:   0, 341, 60
+//                       5461,0:   1,   0, 59
+//                       5530,1:   0, 410, 48
+//                       5803,0:   0, 342, 59
+//                       5803,0:   1,   0, 57
+//                       6144,0:   0, 341, 57
+//                       6144,0:   1,   0, 67
+//                       6144,1:   1, 614, 47
+//                       6554,1:   0, 410, 47
+//                       7168,1:   1, 614, 45
+//                       7578,1:   0, 410, 45
+//                       8192,0:   0,2048, 67
+//                       8192,0:   1,   0, 62
+//                       8192,1:   1, 614, 43
+//                       8602,1:   0, 410, 43
+//                       9216,0:   0,1024, 62
+//                       9216,0:   1,   0, 60
+//                       9216,1:   1, 614, 48
+//                       9557,0:   0, 341, 60
+//                       9557,0:   1,   0, 59
+//                       9626,1:   0, 410, 48
+//                       9899,0:   0, 342, 59
+//                       9899,0:   1,   0, 57
+//                      10240,0:   0, 341, 57
+//                      10240,0:   1,   0, 67
+//                      10240,1:   1, 614, 47
+//                      10650,1:   0, 410, 47
+//                      11264,1:   1, 614, 45
+//                      11674,1:   0, 410, 45
+//                      12288,0:   0,2048, 67
+//                      12288,0:   1,   0, 62
+//                      12288,1:   1, 614, 43
+//                      12698,1:   0, 410, 43
+//                      13312,0:   0,1024, 62
+//                      13312,0:   1,   0, 60
+//                      13312,1:   1, 614, 53
+//                      13653,0:   0, 341, 60
+//                      13653,0:   1,   0, 59
+//                      13824,1:   0, 512, 53
+//                      13995,0:   0, 342, 59
+//                      13995,0:   1,   0, 60
+//                      14336,0:   0, 341, 60
+//                      14336,0:   1,   0, 57
+//                      14336,1:   1, 512, 50
+//                      14746,1:   0, 410, 50
+//                      15360,1:   1, 614, 50
+//                      15701,1:   0, 341, 50
+//                      15701,1:   1,   0, 50
+//                      16043,1:   0, 342, 50
+//                      16043,1:   1,   0, 50
+//                      16384,0:   0,2048, 57
+//                      16384,0:   1,   0, 50
+//                      16384,1:   0, 341, 50
+//                      16384,1:   1,   0, 50
+//                      16725,0:   0, 341, 50
+//                      16725,0:   1,   0, 50
+//                      16896,1:   0, 512, 50
+//                      17067,0:   0, 342, 50
+//                      17067,0:   1,   0, 50
+//                      17408,0:   0, 341, 50
+//                      17408,0:   1,   0, 55
+//                      17408,1:   1, 512, 55
+//                      17818,1:   0, 410, 55
+//                      18432,1:   1, 614, 54
+//                      18842,1:   0, 410, 54
+//                      19456,0:   0,2048, 55
+//                      19456,0:   1,   0, 62
+//                      19456,1:   1, 614, 52
+//                      19866,1:   0, 410, 52
+//                      20480,1:   1, 614, 50
+//                      20890,1:   0, 410, 50
+//                      21504,0:   0,2048, 62
+//                      21504,0:   1,   0, 60
+//                      21504,1:   1, 614, 48
+//                      21845,0:   0, 341, 60
+//                      21845,0:   1,   0, 59
+//                      21914,1:   0, 410, 48
+//                      22187,0:   0, 342, 59
+//                      22187,0:   1,   0, 57
+//                      22528,0:   0, 341, 57
+//                      22528,0:   1,   0, 67
+//                      22528,1:   1, 614, 47
+//                      22938,1:   0, 410, 47
+//                      23552,1:   1, 614, 45
+//                      23962,1:   0, 410, 45
+//                      24576,0:   0,2048, 67
+//                      24576,0:   1,   0, 62
+//                      24576,1:   1, 614, 43
+//                      24986,1:   0, 410, 43
+//                      25600,0:   0,1024, 62
+//                      25600,0:   1,   0, 60
+//                      25600,1:   1, 614, 48
+//                      25941,0:   0, 341, 60
+//                      25941,0:   1,   0, 59
+//                      26010,1:   0, 410, 48
+//                      26283,0:   0, 342, 59
+//                      26283,0:   1,   0, 57
+//                      26624,0:   0, 341, 57
+//                      26624,0:   1,   0, 67
+//                      26624,1:   1, 614, 47
+//                      27034,1:   0, 410, 47
+//                      27648,1:   1, 614, 45
+//                      28058,1:   0, 410, 45
+//                      28672,0:   0,2048, 67
+//                      28672,0:   1,   0, 62
+//                      28672,1:   1, 614, 43
+//                      29082,1:   0, 410, 43
+//                      29696,0:   0,1024, 62
+//                      29696,0:   1,   0, 60
+//                      29696,1:   1, 614, 53
+//                      30037,0:   0, 341, 60
+//                      30037,0:   1,   0, 59
+//                      30208,1:   0, 512, 53
+//                      30379,0:   0, 342, 59
+//                      30379,0:   1,   0, 60
+//                      30720,0:   0, 341, 60
+//                      30720,0:   1,   0, 57
+//                      30720,1:   1, 512, 50
+//                      31130,1:   0, 410, 50
+//                      31744,1:   1, 614, 50
+//                      32085,1:   0, 341, 50
+//                      32085,1:   1,   0, 50
+//                      32427,1:   0, 342, 50
+//                      32427,1:   1,   0, 50
+//                      32768,0:   0,2048, 57
+//                      32768,0:   1,   0, 50
+//                      32768,1:   0, 341, 50
+//                      32768,1:   1,   0, 50
+//                      33280,1:   0, 512, 50
+//                      33792,0:   0,1024, 50
+//                      33792,0:   1,   0, 52
+//                      34816,1:   1,1536, 38
+//                      35328,0:   0,1536, 52
+//                      35328,0:   1,   0, 52
+//                      35840,0:   0, 512, 52
+//                      35840,0:   1,   0, 60
+//                      36352,0:   0, 512, 60
+//                      36352,0:   1,   0, 59
+//                      36864,0:   0, 512, 59
+//                      36864,0:   1,   0, 57
+//                      36864,1:   0,2048, 38
+//                      36864,1:   1,   0, 38
+//                      37376,0:   0, 512, 57
+//                      37376,0:   1,   0, 55
+//                      37888,0:   0, 512, 55
+//                      37888,0:   1,   0, 55
+//                      37888,1:   0,1024, 38
+//                      37888,1:   1,   0, 38
+//                      38229,0:   0, 341, 55
+//                      38229,0:   1,   0, 57
+//                      38298,1:   0, 410, 38
+//                      38571,0:   0, 342, 57
+//                      38571,0:   1,   0, 59
+//                      38912,0:   0, 341, 59
+//                      38912,0:   1,   0, 57
+//                      38912,1:   1, 614, 38
+//                      39595,0:   0, 683, 57
+//                      39595,0:   1,   0, 52
+//                      39936,0:   0, 341, 52
+//                      39936,0:   1,   0, 54
+//                      40960,0:   0,1024, 54
+//                      40960,0:   1,   0, 50
+//                      40960,1:   0,2048, 38
+//                      40960,1:   1,   0, 38
+//                      41643,0:   0, 683, 50
+//                      41643,0:   1,   0, 50
+//                      41984,0:   0, 341, 50
+//                      41984,0:   1,   0, 52
+//                      41984,1:   0,1024, 38
+//                      41984,1:   1,   0, 38
+//                      42394,1:   0, 410, 38
+//                      43008,1:   1, 614, 38
+//                      43520,0:   0,1536, 52
+//                      43520,0:   1,   0, 52
+//                      44032,0:   0, 512, 52
+//                      44032,0:   1,   0, 60
+//                      44544,0:   0, 512, 60
+//                      44544,0:   1,   0, 59
+//                      45056,0:   0, 512, 59
+//                      45056,0:   1,   0, 57
+//                      45056,1:   0,2048, 38
+//                      45056,1:   1,   0, 38
+//                      45568,0:   0, 512, 57
+//                      45568,0:   1,   0, 55
+//                      46080,0:   0, 512, 55
+//                      46080,0:   1,   0, 62
+//                      46080,1:   0,1024, 38
+//                      46080,1:   1,   0, 34
+//                      46592,1:   0, 512, 34
+//                      47104,0:   0,1024, 62
+//                      47104,0:   1,   0, 57
+//                      47104,1:   1, 512, 38
+//                      49152,0:   0,2048, 57
+//                      49152,1:   0,2048, 38
+//                      49152,1:   1,   0, 38
+//                      50176,0:   1,1024, 60
+//                      50176,1:   0,1024, 38
+//                      50176,1:   1,   0, 40
+//                      51712,1:   0,1536, 40
+//                      51712,1:   1,   0, 40
+//                      52224,0:   0,2048, 60
+//                      52224,0:   1,   0, 57
+//                      52224,1:   0, 512, 40
+//                      52224,1:   1,   0, 48
+//                      52736,1:   0, 512, 48
+//                      52736,1:   1,   0, 47
+//                      53248,1:   0, 512, 47
+//                      53248,1:   1,   0, 45
+//                      53760,1:   0, 512, 45
+//                      53760,1:   1,   0, 43
+//                      54272,0:   0,2048, 57
+//                      54272,0:   1,   0, 57
+//                      54272,1:   0, 512, 43
+//                      54272,1:   1,   0, 43
+//                      54613,1:   0, 341, 43
+//                      54613,1:   1,   0, 45
+//                      54955,1:   0, 342, 45
+//                      54955,1:   1,   0, 47
+//                      55296,0:   0,1024, 57
+//                      55296,0:   1,   0, 62
+//                      55296,1:   0, 341, 47
+//                      55296,1:   1,   0, 45
+//                      55979,1:   0, 683, 45
+//                      55979,1:   1,   0, 40
+//                      56320,1:   0, 341, 40
+//                      56320,1:   1,   0, 42
+//                      57344,0:   0,2048, 62
+//                      57344,0:   1,   0, 50
+//                      57344,1:   0,1024, 42
+//                      57344,1:   1,   0, 38
+//                      58027,1:   0, 683, 38
+//                      58027,1:   1,   0, 38
+//                      58368,0:   0,1024, 50
+//                      58368,0:   1,   0, 45
+//                      58368,1:   0, 341, 38
+//                      58368,1:   1,   0, 55
+//                      59051,0:   0, 683, 45
+//                      59051,0:   1,   0, 47
+//                      59051,1:   0, 683, 55
+//                      59051,1:   1,   0, 53
+//                      59392,0:   0, 341, 47
+//                      59392,0:   1,   0, 48
+//                      59392,1:   0, 341, 53
+//                      59392,1:   1,   0, 51
+//                      60075,0:   0, 683, 48
+//                      60075,0:   1,   0, 50
+//                      60075,1:   0, 683, 51
+//                      60075,1:   1,   0, 50
+//                      60416,0:   0, 341, 50
+//                      60416,0:   1,   0, 51
+//                      60416,1:   0, 341, 50
+//                      60416,1:   1,   0, 48
+//                      61099,0:   0, 683, 51
+//                      61099,0:   1,   0, 53
+//                      61099,1:   0, 683, 48
+//                      61099,1:   1,   0, 46
+//                      61440,0:   0, 341, 53
+//                      61440,0:   1,   0, 55
+//                      61440,1:   0, 341, 46
+//                      61440,1:   1,   0, 45
+//                      62123,0:   0, 683, 55
+//                      62123,0:   1,   0, 57
+//                      62123,1:   0, 683, 45
+//                      62123,1:   1,   0, 43
+//                      62464,0:   0, 341, 57
+//                      62464,1:   0, 341, 43
+//                      62464,1:   1,   0, 50
+//                      63488,0:   1,1024, 38
+//                      63829,0:   0, 341, 38
+//                      63829,0:   1,   0, 38
+//                      64171,0:   0, 342, 38
+//                      64171,0:   1,   0, 38
+//                      64512,0:   0, 341, 38
+//                      64512,0:   1,   0, 38
+//                      65536,0:   0,1024, 38
+//                      65536,0:   1,   0, 38
+//                      65536,1:   0,3072, 50
+//                      65536,1:   1,   0, 38
+//                      66219,1:   0, 683, 38
+//                      66219,1:   1,   0, 38
+//                      66560,0:   0,1024, 38
+//                      66560,0:   1,   0, 38
+//                      66560,1:   0, 341, 38
+//                      66560,1:   1,   0, 40
+//                      68096,0:   0,1536, 38
+//                      68096,0:   1,   0, 38
+//                      68096,1:   0,1536, 40
+//                      68096,1:   1,   0, 43
+//                      68608,0:   0, 512, 38
+//                      68608,0:   1,   0, 45
+//                      68608,1:   0, 512, 43
+//                      68608,1:   1,   0, 48
+//                      69632,0:   0,1024, 45
+//                      69632,0:   1,   0, 38
+//                      69632,1:   0,1024, 48
+//                      69632,1:   1,   0, 45
+//                      70656,0:   0,1024, 38
+//                      70656,0:   1,   0, 55
+//                      70656,1:   0,1024, 45
+//                      70656,1:   1,   0, 43
+//                      71066,0:   0, 410, 55
+//                      71680,0:   1, 614, 54
+//                      72090,0:   0, 410, 54
+//                      72704,0:   1, 614, 52
+//                      72704,1:   0,2048, 43
+//                      72704,1:   1,   0, 50
+//                      73114,0:   0, 410, 52
+//                      73728,0:   1, 614, 50
+//                      74138,0:   0, 410, 50
+//                      74752,0:   1, 614, 48
+//                      74752,1:   0,2048, 50
+//                      74752,1:   1,   0, 48
+//                      75093,1:   0, 341, 48
+//                      75093,1:   1,   0, 47
+//                      75162,0:   0, 410, 48
+//                      75435,1:   0, 342, 47
+//                      75435,1:   1,   0, 45
+//                      75776,0:   1, 614, 47
+//                      75776,1:   0, 341, 45
+//                      75776,1:   1,   0, 55
+//                      76186,0:   0, 410, 47
+//                      76800,0:   1, 614, 45
+//                      77210,0:   0, 410, 45
+//                      77824,0:   1, 614, 43
+//                      77824,1:   0,2048, 55
+//                      77824,1:   1,   0, 50
+//                      78234,0:   0, 410, 43
+//                      78848,0:   1, 614, 48
+//                      78848,1:   0,1024, 50
+//                      78848,1:   1,   0, 48
+//                      79189,1:   0, 341, 48
+//                      79189,1:   1,   0, 47
+//                      79258,0:   0, 410, 48
+//                      79531,1:   0, 342, 47
+//                      79531,1:   1,   0, 45
+//                      79872,0:   1, 614, 47
+//                      79872,1:   0, 341, 45
+//                      79872,1:   1,   0, 55
+//                      80282,0:   0, 410, 47
+//                      80896,0:   1, 614, 45
+//                      81306,0:   0, 410, 45
+//                      81920,0:   1, 614, 43
+//                      81920,1:   0,2048, 55
+//                      81920,1:   1,   0, 50
+//                      82330,0:   0, 410, 43
+//                      82944,0:   1, 614, 41
+//                      82944,1:   0,1024, 50
+//                      82944,1:   1,   0, 48
+//                      83285,1:   0, 341, 48
+//                      83285,1:   1,   0, 47
+//                      83456,0:   0, 512, 41
+//                      83627,1:   0, 342, 47
+//                      83627,1:   1,   0, 48
+//                      83968,0:   1, 512, 38
+//                      83968,1:   0, 341, 48
+//                      83968,1:   1,   0, 45
+//                      84378,0:   0, 410, 38
+//                      84992,0:   1, 614, 38
+//                      85333,0:   0, 341, 38
+//                      85333,0:   1,   0, 38
+//                      85675,0:   0, 342, 38
+//                      85675,0:   1,   0, 38
+//                      86016,0:   0, 341, 38
+//                      86016,0:   1,   0, 38
+//                      86016,1:   0,2048, 45
+//                      86016,1:   1,   0, 38
+//                      86357,1:   0, 341, 38
+//                      86357,1:   1,   0, 38
+//                      86528,0:   0, 512, 38
+//                      86699,1:   0, 342, 38
+//                      86699,1:   1,   0, 38
+//                      87040,0:   1, 512, 55
+//                      87040,1:   0, 341, 38
+//                      87040,1:   1,   0, 43
+//                      87450,0:   0, 410, 55
+//                      88064,0:   1, 614, 54
+//                      88474,0:   0, 410, 54
+//                      89088,0:   1, 614, 52
+//                      89088,1:   0,2048, 43
+//                      89088,1:   1,   0, 50
+//                      89498,0:   0, 410, 52
+//                      90112,0:   1, 614, 50
+//                      90522,0:   0, 410, 50
+//                      91136,0:   1, 614, 48
+//                      91136,1:   0,2048, 50
+//                      91136,1:   1,   0, 48
+//                      91477,1:   0, 341, 48
+//                      91477,1:   1,   0, 47
+//                      91546,0:   0, 410, 48
+//                      91819,1:   0, 342, 47
+//                      91819,1:   1,   0, 45
+//                      92160,0:   1, 614, 47
+//                      92160,1:   0, 341, 45
+//                      92160,1:   1,   0, 55
+//                      92570,0:   0, 410, 47
+//                      93184,0:   1, 614, 45
+//                      93594,0:   0, 410, 45
+//                      94208,0:   1, 614, 43
+//                      94208,1:   0,2048, 55
+//                      94208,1:   1,   0, 50
+//                      94618,0:   0, 410, 43
+//                      95232,0:   1, 614, 48
+//                      95232,1:   0,1024, 50
+//                      95232,1:   1,   0, 48
+//                      95573,1:   0, 341, 48
+//                      95573,1:   1,   0, 47
+//                      95642,0:   0, 410, 48
+//                      95915,1:   0, 342, 47
+//                      95915,1:   1,   0, 45
+//                      96256,0:   1, 614, 47
+//                      96256,1:   0, 341, 45
+//                      96256,1:   1,   0, 55
+//                      96666,0:   0, 410, 47
+//                      97280,0:   1, 614, 45
+//                      97690,0:   0, 410, 45
+//                      98304,0:   1, 614, 43
+//                      98304,1:   0,2048, 55
+//                      98304,1:   1,   0, 50
+//                      98714,0:   0, 410, 43
+//                      99328,0:   1, 614, 41
+//                      99328,1:   0,1024, 50
+//                      99328,1:   1,   0, 48
+//                      99669,1:   0, 341, 48
+//                      99669,1:   1,   0, 47
+//                      99840,0:   0, 512, 41
+//                     100011,1:   0, 342, 47
+//                     100011,1:   1,   0, 48
+//                     100352,0:   1, 512, 38
+//                     100352,1:   0, 341, 48
+//                     100352,1:   1,   0, 45
+//                     100762,0:   0, 410, 38
+//                     101376,0:   1, 614, 38
+//                     101717,0:   0, 341, 38
+//                     101717,0:   1,   0, 38
+//                     102059,0:   0, 342, 38
+//                     102059,0:   1,   0, 38
+//                     102400,0:   0, 341, 38
+//                     102400,0:   1,   0, 38
+//                     102400,1:   0,2048, 45
+//                     102400,1:   1,   0, 38
+//                     102912,0:   0, 512, 38
+//                     103424,0:   1, 512, 38
+//                     103424,1:   0,1024, 38
+//                     103424,1:   1,   0, 40
+//                     104960,0:   0,1536, 38
+//                     104960,0:   1,   0, 38
+//                     104960,1:   0,1536, 40
+//                     104960,1:   1,   0, 43
+//                     105472,0:   0, 512, 38
+//                     105472,0:   1,   0, 45
+//                     105472,1:   0, 512, 43
+//                     105472,1:   1,   0, 48
+//                     106496,0:   0,1024, 45
+//                     106496,0:   1,   0, 38
+//                     106496,1:   0,1024, 48
+//                     106496,1:   1,   0, 45
+//                     107520,0:   0,1024, 38
+//                     107520,0:   1,   0, 43
+//                     107520,1:   0,1024, 45
+//                     107520,1:   1,   0, 43
+//                     108544,1:   0,1024, 43
+//                     108544,1:   1,   0, 43
+//                     109568,1:   0,1024, 43
+//                     109568,1:   1,   0, 43
+//                     110592,1:   0,1024, 43
+//                     110592,1:   1,   0, 39
+//                     111360,1:   0, 768, 39
+//                     111360,1:   1,   0, 46
+//                     111616,1:   0, 256, 46
+//                     111616,1:   1,   0, 43
+//                     112640,1:   0,1024, 43
+//                     112640,1:   1,   0, 39
+//                     113408,1:   0, 768, 39
+//                     113408,1:   1,   0, 46
+//                     113664,1:   0, 256, 46
+//                     113664,1:   1,   0, 43
+//                     115712,0:   0,8192, 43
+//                     115712,0:   1,   0, 50
+//                     115712,1:   0,2048, 43
+//                     115712,1:   1,   0, 31
+//                     116736,0:   0,1024, 50
+//                     116736,0:   1,   0, 50
+//                     117760,0:   0,1024, 50
+//                     117760,0:   1,   0, 50
+//                     118784,0:   0,1024, 50
+//                     118784,0:   1,   0, 51
+//                     119552,0:   0, 768, 51
+//                     119552,0:   1,   0, 46
+//                     119808,0:   0, 256, 46
+//                     119808,0:   1,   0, 42
+//                     119808,1:   0,4096, 31
+//                     119808,1:   1,   0, 39
+//                     120832,0:   0,1024, 42
+//                     120832,0:   1,   0, 38
+//                     120832,1:   0,1024, 39
+//                     120832,1:   1,   0, 34
+//                     121600,0:   0, 768, 38
+//                     121600,0:   1,   0, 46
+//                     121600,1:   0, 768, 34
+//                     121600,1:   1,   0, 30
+//                     121856,0:   0, 256, 46
+//                     121856,0:   1,   0, 43
+//                     121856,1:   0, 256, 30
+//                     121856,1:   1,   0, 31
+//                     125952,0:   0,4096, 43
+//                     125952,1:   0,4096, 31
+Message(note_on,channel=0, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=50, velocity=70, time=341)
+Message(note_on,channel=0, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=50, velocity=70, time=342)
+Message(note_on,channel=0, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=50, velocity=70, time=341)
+Message(note_on,channel=0, note=55, velocity=70, time=0)
+Message(note_on,channel=1, note=55, velocity=70, time=1024)
+Message(note_off,channel=1, note=55, velocity=70, time=410)
+Message(note_on,channel=1, note=54, velocity=70, time=614)
+Message(note_off,channel=1, note=54, velocity=70, time=410)
+Message(note_off,channel=0, note=55, velocity=70, time=2048)
+Message(note_on,channel=0, note=62, velocity=70, time=0)
+Message(note_on,channel=1, note=52, velocity=70, time=614)
+Message(note_off,channel=1, note=52, velocity=70, time=410)
+Message(note_on,channel=1, note=50, velocity=70, time=614)
+Message(note_off,channel=1, note=50, velocity=70, time=410)
+Message(note_off,channel=0, note=62, velocity=70, time=2048)
+Message(note_on,channel=0, note=60, velocity=70, time=0)
+Message(note_on,channel=1, note=48, velocity=70, time=614)
+Message(note_off,channel=0, note=60, velocity=70, time=341)
+Message(note_on,channel=0, note=59, velocity=70, time=0)
+Message(note_off,channel=1, note=48, velocity=70, time=410)
+Message(note_off,channel=0, note=59, velocity=70, time=342)
+Message(note_on,channel=0, note=57, velocity=70, time=0)
+Message(note_off,channel=0, note=57, velocity=70, time=341)
+Message(note_on,channel=0, note=67, velocity=70, time=0)
+Message(note_on,channel=1, note=47, velocity=70, time=614)
+Message(note_off,channel=1, note=47, velocity=70, time=410)
+Message(note_on,channel=1, note=45, velocity=70, time=614)
+Message(note_off,channel=1, note=45, velocity=70, time=410)
+Message(note_off,channel=0, note=67, velocity=70, time=2048)
+Message(note_on,channel=0, note=62, velocity=70, time=0)
+Message(note_on,channel=1, note=43, velocity=70, time=614)
+Message(note_off,channel=1, note=43, velocity=70, time=410)
+Message(note_off,channel=0, note=62, velocity=70, time=1024)
+Message(note_on,channel=0, note=60, velocity=70, time=0)
+Message(note_on,channel=1, note=48, velocity=70, time=614)
+Message(note_off,channel=0, note=60, velocity=70, time=341)
+Message(note_on,channel=0, note=59, velocity=70, time=0)
+Message(note_off,channel=1, note=48, velocity=70, time=410)
+Message(note_off,channel=0, note=59, velocity=70, time=342)
+Message(note_on,channel=0, note=57, velocity=70, time=0)
+Message(note_off,channel=0, note=57, velocity=70, time=341)
+Message(note_on,channel=0, note=67, velocity=70, time=0)
+Message(note_on,channel=1, note=47, velocity=70, time=614)
+Message(note_off,channel=1, note=47, velocity=70, time=410)
+Message(note_on,channel=1, note=45, velocity=70, time=614)
+Message(note_off,channel=1, note=45, velocity=70, time=410)
+Message(note_off,channel=0, note=67, velocity=70, time=2048)
+Message(note_on,channel=0, note=62, velocity=70, time=0)
+Message(note_on,channel=1, note=43, velocity=70, time=614)
+Message(note_off,channel=1, note=43, velocity=70, time=410)
+Message(note_off,channel=0, note=62, velocity=70, time=1024)
+Message(note_on,channel=0, note=60, velocity=70, time=0)
+Message(note_on,channel=1, note=53, velocity=70, time=614)
+Message(note_off,channel=0, note=60, velocity=70, time=341)
+Message(note_on,channel=0, note=59, velocity=70, time=0)
+Message(note_off,channel=1, note=53, velocity=70, time=512)
+Message(note_off,channel=0, note=59, velocity=70, time=342)
+Message(note_on,channel=0, note=60, velocity=70, time=0)
+Message(note_off,channel=0, note=60, velocity=70, time=341)
+Message(note_on,channel=0, note=57, velocity=70, time=0)
+Message(note_on,channel=1, note=50, velocity=70, time=512)
+Message(note_off,channel=1, note=50, velocity=70, time=410)
+Message(note_on,channel=1, note=50, velocity=70, time=614)
+Message(note_off,channel=1, note=50, velocity=70, time=341)
+Message(note_on,channel=1, note=50, velocity=70, time=0)
+Message(note_off,channel=1, note=50, velocity=70, time=342)
+Message(note_on,channel=1, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=57, velocity=70, time=2048)
+Message(note_on,channel=0, note=50, velocity=70, time=0)
+Message(note_off,channel=1, note=50, velocity=70, time=341)
+Message(note_on,channel=1, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=50, velocity=70, time=341)
+Message(note_on,channel=0, note=50, velocity=70, time=0)
+Message(note_off,channel=1, note=50, velocity=70, time=512)
+Message(note_off,channel=0, note=50, velocity=70, time=342)
+Message(note_on,channel=0, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=50, velocity=70, time=341)
+Message(note_on,channel=0, note=55, velocity=70, time=0)
+Message(note_on,channel=1, note=55, velocity=70, time=512)
+Message(note_off,channel=1, note=55, velocity=70, time=410)
+Message(note_on,channel=1, note=54, velocity=70, time=614)
+Message(note_off,channel=1, note=54, velocity=70, time=410)
+Message(note_off,channel=0, note=55, velocity=70, time=2048)
+Message(note_on,channel=0, note=62, velocity=70, time=0)
+Message(note_on,channel=1, note=52, velocity=70, time=614)
+Message(note_off,channel=1, note=52, velocity=70, time=410)
+Message(note_on,channel=1, note=50, velocity=70, time=614)
+Message(note_off,channel=1, note=50, velocity=70, time=410)
+Message(note_off,channel=0, note=62, velocity=70, time=2048)
+Message(note_on,channel=0, note=60, velocity=70, time=0)
+Message(note_on,channel=1, note=48, velocity=70, time=614)
+Message(note_off,channel=0, note=60, velocity=70, time=341)
+Message(note_on,channel=0, note=59, velocity=70, time=0)
+Message(note_off,channel=1, note=48, velocity=70, time=410)
+Message(note_off,channel=0, note=59, velocity=70, time=342)
+Message(note_on,channel=0, note=57, velocity=70, time=0)
+Message(note_off,channel=0, note=57, velocity=70, time=341)
+Message(note_on,channel=0, note=67, velocity=70, time=0)
+Message(note_on,channel=1, note=47, velocity=70, time=614)
+Message(note_off,channel=1, note=47, velocity=70, time=410)
+Message(note_on,channel=1, note=45, velocity=70, time=614)
+Message(note_off,channel=1, note=45, velocity=70, time=410)
+Message(note_off,channel=0, note=67, velocity=70, time=2048)
+Message(note_on,channel=0, note=62, velocity=70, time=0)
+Message(note_on,channel=1, note=43, velocity=70, time=614)
+Message(note_off,channel=1, note=43, velocity=70, time=410)
+Message(note_off,channel=0, note=62, velocity=70, time=1024)
+Message(note_on,channel=0, note=60, velocity=70, time=0)
+Message(note_on,channel=1, note=48, velocity=70, time=614)
+Message(note_off,channel=0, note=60, velocity=70, time=341)
+Message(note_on,channel=0, note=59, velocity=70, time=0)
+Message(note_off,channel=1, note=48, velocity=70, time=410)
+Message(note_off,channel=0, note=59, velocity=70, time=342)
+Message(note_on,channel=0, note=57, velocity=70, time=0)
+Message(note_off,channel=0, note=57, velocity=70, time=341)
+Message(note_on,channel=0, note=67, velocity=70, time=0)
+Message(note_on,channel=1, note=47, velocity=70, time=614)
+Message(note_off,channel=1, note=47, velocity=70, time=410)
+Message(note_on,channel=1, note=45, velocity=70, time=614)
+Message(note_off,channel=1, note=45, velocity=70, time=410)
+Message(note_off,channel=0, note=67, velocity=70, time=2048)
+Message(note_on,channel=0, note=62, velocity=70, time=0)
+Message(note_on,channel=1, note=43, velocity=70, time=614)
+Message(note_off,channel=1, note=43, velocity=70, time=410)
+Message(note_off,channel=0, note=62, velocity=70, time=1024)
+Message(note_on,channel=0, note=60, velocity=70, time=0)
+Message(note_on,channel=1, note=53, velocity=70, time=614)
+Message(note_off,channel=0, note=60, velocity=70, time=341)
+Message(note_on,channel=0, note=59, velocity=70, time=0)
+Message(note_off,channel=1, note=53, velocity=70, time=512)
+Message(note_off,channel=0, note=59, velocity=70, time=342)
+Message(note_on,channel=0, note=60, velocity=70, time=0)
+Message(note_off,channel=0, note=60, velocity=70, time=341)
+Message(note_on,channel=0, note=57, velocity=70, time=0)
+Message(note_on,channel=1, note=50, velocity=70, time=512)
+Message(note_off,channel=1, note=50, velocity=70, time=410)
+Message(note_on,channel=1, note=50, velocity=70, time=614)
+Message(note_off,channel=1, note=50, velocity=70, time=341)
+Message(note_on,channel=1, note=50, velocity=70, time=0)
+Message(note_off,channel=1, note=50, velocity=70, time=342)
+Message(note_on,channel=1, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=57, velocity=70, time=2048)
+Message(note_on,channel=0, note=50, velocity=70, time=0)
+Message(note_off,channel=1, note=50, velocity=70, time=341)
+Message(note_on,channel=1, note=50, velocity=70, time=0)
+Message(note_off,channel=1, note=50, velocity=70, time=512)
+Message(note_off,channel=0, note=50, velocity=70, time=1024)
+Message(note_on,channel=0, note=52, velocity=70, time=0)
+Message(note_on,channel=1, note=38, velocity=70, time=1536)
+Message(note_off,channel=0, note=52, velocity=70, time=1536)
+Message(note_on,channel=0, note=52, velocity=70, time=0)
+Message(note_off,channel=0, note=52, velocity=70, time=512)
+Message(note_on,channel=0, note=60, velocity=70, time=0)
+Message(note_off,channel=0, note=60, velocity=70, time=512)
+Message(note_on,channel=0, note=59, velocity=70, time=0)
+Message(note_off,channel=0, note=59, velocity=70, time=512)
+Message(note_on,channel=0, note=57, velocity=70, time=0)
+Message(note_off,channel=1, note=38, velocity=70, time=2048)
+Message(note_on,channel=1, note=38, velocity=70, time=0)
+Message(note_off,channel=0, note=57, velocity=70, time=512)
+Message(note_on,channel=0, note=55, velocity=70, time=0)
+Message(note_off,channel=0, note=55, velocity=70, time=512)
+Message(note_on,channel=0, note=55, velocity=70, time=0)
+Message(note_off,channel=1, note=38, velocity=70, time=1024)
+Message(note_on,channel=1, note=38, velocity=70, time=0)
+Message(note_off,channel=0, note=55, velocity=70, time=341)
+Message(note_on,channel=0, note=57, velocity=70, time=0)
+Message(note_off,channel=1, note=38, velocity=70, time=410)
+Message(note_off,channel=0, note=57, velocity=70, time=342)
+Message(note_on,channel=0, note=59, velocity=70, time=0)
+Message(note_off,channel=0, note=59, velocity=70, time=341)
+Message(note_on,channel=0, note=57, velocity=70, time=0)
+Message(note_on,channel=1, note=38, velocity=70, time=614)
+Message(note_off,channel=0, note=57, velocity=70, time=683)
+Message(note_on,channel=0, note=52, velocity=70, time=0)
+Message(note_off,channel=0, note=52, velocity=70, time=341)
+Message(note_on,channel=0, note=54, velocity=70, time=0)
+Message(note_off,channel=0, note=54, velocity=70, time=1024)
+Message(note_on,channel=0, note=50, velocity=70, time=0)
+Message(note_off,channel=1, note=38, velocity=70, time=2048)
+Message(note_on,channel=1, note=38, velocity=70, time=0)
+Message(note_off,channel=0, note=50, velocity=70, time=683)
+Message(note_on,channel=0, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=50, velocity=70, time=341)
+Message(note_on,channel=0, note=52, velocity=70, time=0)
+Message(note_off,channel=1, note=38, velocity=70, time=1024)
+Message(note_on,channel=1, note=38, velocity=70, time=0)
+Message(note_off,channel=1, note=38, velocity=70, time=410)
+Message(note_on,channel=1, note=38, velocity=70, time=614)
+Message(note_off,channel=0, note=52, velocity=70, time=1536)
+Message(note_on,channel=0, note=52, velocity=70, time=0)
+Message(note_off,channel=0, note=52, velocity=70, time=512)
+Message(note_on,channel=0, note=60, velocity=70, time=0)
+Message(note_off,channel=0, note=60, velocity=70, time=512)
+Message(note_on,channel=0, note=59, velocity=70, time=0)
+Message(note_off,channel=0, note=59, velocity=70, time=512)
+Message(note_on,channel=0, note=57, velocity=70, time=0)
+Message(note_off,channel=1, note=38, velocity=70, time=2048)
+Message(note_on,channel=1, note=38, velocity=70, time=0)
+Message(note_off,channel=0, note=57, velocity=70, time=512)
+Message(note_on,channel=0, note=55, velocity=70, time=0)
+Message(note_off,channel=0, note=55, velocity=70, time=512)
+Message(note_on,channel=0, note=62, velocity=70, time=0)
+Message(note_off,channel=1, note=38, velocity=70, time=1024)
+Message(note_on,channel=1, note=34, velocity=70, time=0)
+Message(note_off,channel=1, note=34, velocity=70, time=512)
+Message(note_off,channel=0, note=62, velocity=70, time=1024)
+Message(note_on,channel=0, note=57, velocity=70, time=0)
+Message(note_on,channel=1, note=38, velocity=70, time=512)
+Message(note_off,channel=0, note=57, velocity=70, time=2048)
+Message(note_off,channel=1, note=38, velocity=70, time=2048)
+Message(note_on,channel=1, note=38, velocity=70, time=0)
+Message(note_on,channel=0, note=60, velocity=70, time=1024)
+Message(note_off,channel=1, note=38, velocity=70, time=1024)
+Message(note_on,channel=1, note=40, velocity=70, time=0)
+Message(note_off,channel=1, note=40, velocity=70, time=1536)
+Message(note_on,channel=1, note=40, velocity=70, time=0)
+Message(note_off,channel=0, note=60, velocity=70, time=2048)
+Message(note_on,channel=0, note=57, velocity=70, time=0)
+Message(note_off,channel=1, note=40, velocity=70, time=512)
+Message(note_on,channel=1, note=48, velocity=70, time=0)
+Message(note_off,channel=1, note=48, velocity=70, time=512)
+Message(note_on,channel=1, note=47, velocity=70, time=0)
+Message(note_off,channel=1, note=47, velocity=70, time=512)
+Message(note_on,channel=1, note=45, velocity=70, time=0)
+Message(note_off,channel=1, note=45, velocity=70, time=512)
+Message(note_on,channel=1, note=43, velocity=70, time=0)
+Message(note_off,channel=0, note=57, velocity=70, time=2048)
+Message(note_on,channel=0, note=57, velocity=70, time=0)
+Message(note_off,channel=1, note=43, velocity=70, time=512)
+Message(note_on,channel=1, note=43, velocity=70, time=0)
+Message(note_off,channel=1, note=43, velocity=70, time=341)
+Message(note_on,channel=1, note=45, velocity=70, time=0)
+Message(note_off,channel=1, note=45, velocity=70, time=342)
+Message(note_on,channel=1, note=47, velocity=70, time=0)
+Message(note_off,channel=0, note=57, velocity=70, time=1024)
+Message(note_on,channel=0, note=62, velocity=70, time=0)
+Message(note_off,channel=1, note=47, velocity=70, time=341)
+Message(note_on,channel=1, note=45, velocity=70, time=0)
+Message(note_off,channel=1, note=45, velocity=70, time=683)
+Message(note_on,channel=1, note=40, velocity=70, time=0)
+Message(note_off,channel=1, note=40, velocity=70, time=341)
+Message(note_on,channel=1, note=42, velocity=70, time=0)
+Message(note_off,channel=0, note=62, velocity=70, time=2048)
+Message(note_on,channel=0, note=50, velocity=70, time=0)
+Message(note_off,channel=1, note=42, velocity=70, time=1024)
+Message(note_on,channel=1, note=38, velocity=70, time=0)
+Message(note_off,channel=1, note=38, velocity=70, time=683)
+Message(note_on,channel=1, note=38, velocity=70, time=0)
+Message(note_off,channel=0, note=50, velocity=70, time=1024)
+Message(note_on,channel=0, note=45, velocity=70, time=0)
+Message(note_off,channel=1, note=38, velocity=70, time=341)
+Message(note_on,channel=1, note=55, velocity=70, time=0)
+Message(note_off,channel=0, note=45, velocity=70, time=683)
+Message(note_on,channel=0, note=47, velocity=70, time=0)
+Message(note_off,channel=1, note=55, velocity=70, time=683)
+Message(note_on,channel=1, note=53, velocity=70, time=0)
+Message(note_off,channel=0, note=47, velocity=70, time=341)
+Message(note_on,channel=0, note=48, velocity=70, time=0)
+Message(note_off,channel=1, note=53, velocity=70, time=341)
+Message(note_on,channel=1, note=51, velocity=70, time=0)
+Message(note_off,channel=0, note=48, velocity=70, time=683)
+Message(note_on,channel=0, note=50, velocity=70, time=0)
+Message(note_off,channel=1, note=51, velocity=70, time=683)
+Message(note_on,channel=1, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=50, velocity=70, time=341)
+Message(note_on,channel=0, note=51, velocity=70, time=0)
+Message(note_off,channel=1, note=50, velocity=70, time=341)
+Message(note_on,channel=1, note=48, velocity=70, time=0)
+Message(note_off,channel=0, note=51, velocity=70, time=683)
+Message(note_on,channel=0, note=53, velocity=70, time=0)
+Message(note_off,channel=1, note=48, velocity=70, time=683)
+Message(note_on,channel=1, note=46, velocity=70, time=0)
+Message(note_off,channel=0, note=53, velocity=70, time=341)
+Message(note_on,channel=0, note=55, velocity=70, time=0)
+Message(note_off,channel=1, note=46, velocity=70, time=341)
+Message(note_on,channel=1, note=45, velocity=70, time=0)
+Message(note_off,channel=0, note=55, velocity=70, time=683)
+Message(note_on,channel=0, note=57, velocity=70, time=0)
+Message(note_off,channel=1, note=45, velocity=70, time=683)
+Message(note_on,channel=1, note=43, velocity=70, time=0)
+Message(note_off,channel=0, note=57, velocity=70, time=341)
+Message(note_off,channel=1, note=43, velocity=70, time=341)
+Message(note_on,channel=1, note=50, velocity=70, time=0)
+Message(note_on,channel=0, note=38, velocity=70, time=1024)
+Message(note_off,channel=0, note=38, velocity=70, time=341)
+Message(note_on,channel=0, note=38, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=342)
+Message(note_on,channel=0, note=38, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=341)
+Message(note_on,channel=0, note=38, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=1024)
+Message(note_on,channel=0, note=38, velocity=70, time=0)
+Message(note_off,channel=1, note=50, velocity=70, time=3072)
+Message(note_on,channel=1, note=38, velocity=70, time=0)
+Message(note_off,channel=1, note=38, velocity=70, time=683)
+Message(note_on,channel=1, note=38, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=1024)
+Message(note_on,channel=0, note=38, velocity=70, time=0)
+Message(note_off,channel=1, note=38, velocity=70, time=341)
+Message(note_on,channel=1, note=40, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=1536)
+Message(note_on,channel=0, note=38, velocity=70, time=0)
+Message(note_off,channel=1, note=40, velocity=70, time=1536)
+Message(note_on,channel=1, note=43, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=512)
+Message(note_on,channel=0, note=45, velocity=70, time=0)
+Message(note_off,channel=1, note=43, velocity=70, time=512)
+Message(note_on,channel=1, note=48, velocity=70, time=0)
+Message(note_off,channel=0, note=45, velocity=70, time=1024)
+Message(note_on,channel=0, note=38, velocity=70, time=0)
+Message(note_off,channel=1, note=48, velocity=70, time=1024)
+Message(note_on,channel=1, note=45, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=1024)
+Message(note_on,channel=0, note=55, velocity=70, time=0)
+Message(note_off,channel=1, note=45, velocity=70, time=1024)
+Message(note_on,channel=1, note=43, velocity=70, time=0)
+Message(note_off,channel=0, note=55, velocity=70, time=410)
+Message(note_on,channel=0, note=54, velocity=70, time=614)
+Message(note_off,channel=0, note=54, velocity=70, time=410)
+Message(note_on,channel=0, note=52, velocity=70, time=614)
+Message(note_off,channel=1, note=43, velocity=70, time=2048)
+Message(note_on,channel=1, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=52, velocity=70, time=410)
+Message(note_on,channel=0, note=50, velocity=70, time=614)
+Message(note_off,channel=0, note=50, velocity=70, time=410)
+Message(note_on,channel=0, note=48, velocity=70, time=614)
+Message(note_off,channel=1, note=50, velocity=70, time=2048)
+Message(note_on,channel=1, note=48, velocity=70, time=0)
+Message(note_off,channel=1, note=48, velocity=70, time=341)
+Message(note_on,channel=1, note=47, velocity=70, time=0)
+Message(note_off,channel=0, note=48, velocity=70, time=410)
+Message(note_off,channel=1, note=47, velocity=70, time=342)
+Message(note_on,channel=1, note=45, velocity=70, time=0)
+Message(note_on,channel=0, note=47, velocity=70, time=614)
+Message(note_off,channel=1, note=45, velocity=70, time=341)
+Message(note_on,channel=1, note=55, velocity=70, time=0)
+Message(note_off,channel=0, note=47, velocity=70, time=410)
+Message(note_on,channel=0, note=45, velocity=70, time=614)
+Message(note_off,channel=0, note=45, velocity=70, time=410)
+Message(note_on,channel=0, note=43, velocity=70, time=614)
+Message(note_off,channel=1, note=55, velocity=70, time=2048)
+Message(note_on,channel=1, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=43, velocity=70, time=410)
+Message(note_on,channel=0, note=48, velocity=70, time=614)
+Message(note_off,channel=1, note=50, velocity=70, time=1024)
+Message(note_on,channel=1, note=48, velocity=70, time=0)
+Message(note_off,channel=1, note=48, velocity=70, time=341)
+Message(note_on,channel=1, note=47, velocity=70, time=0)
+Message(note_off,channel=0, note=48, velocity=70, time=410)
+Message(note_off,channel=1, note=47, velocity=70, time=342)
+Message(note_on,channel=1, note=45, velocity=70, time=0)
+Message(note_on,channel=0, note=47, velocity=70, time=614)
+Message(note_off,channel=1, note=45, velocity=70, time=341)
+Message(note_on,channel=1, note=55, velocity=70, time=0)
+Message(note_off,channel=0, note=47, velocity=70, time=410)
+Message(note_on,channel=0, note=45, velocity=70, time=614)
+Message(note_off,channel=0, note=45, velocity=70, time=410)
+Message(note_on,channel=0, note=43, velocity=70, time=614)
+Message(note_off,channel=1, note=55, velocity=70, time=2048)
+Message(note_on,channel=1, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=43, velocity=70, time=410)
+Message(note_on,channel=0, note=41, velocity=70, time=614)
+Message(note_off,channel=1, note=50, velocity=70, time=1024)
+Message(note_on,channel=1, note=48, velocity=70, time=0)
+Message(note_off,channel=1, note=48, velocity=70, time=341)
+Message(note_on,channel=1, note=47, velocity=70, time=0)
+Message(note_off,channel=0, note=41, velocity=70, time=512)
+Message(note_off,channel=1, note=47, velocity=70, time=342)
+Message(note_on,channel=1, note=48, velocity=70, time=0)
+Message(note_on,channel=0, note=38, velocity=70, time=512)
+Message(note_off,channel=1, note=48, velocity=70, time=341)
+Message(note_on,channel=1, note=45, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=410)
+Message(note_on,channel=0, note=38, velocity=70, time=614)
+Message(note_off,channel=0, note=38, velocity=70, time=341)
+Message(note_on,channel=0, note=38, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=342)
+Message(note_on,channel=0, note=38, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=341)
+Message(note_on,channel=0, note=38, velocity=70, time=0)
+Message(note_off,channel=1, note=45, velocity=70, time=2048)
+Message(note_on,channel=1, note=38, velocity=70, time=0)
+Message(note_off,channel=1, note=38, velocity=70, time=341)
+Message(note_on,channel=1, note=38, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=512)
+Message(note_off,channel=1, note=38, velocity=70, time=342)
+Message(note_on,channel=1, note=38, velocity=70, time=0)
+Message(note_on,channel=0, note=55, velocity=70, time=512)
+Message(note_off,channel=1, note=38, velocity=70, time=341)
+Message(note_on,channel=1, note=43, velocity=70, time=0)
+Message(note_off,channel=0, note=55, velocity=70, time=410)
+Message(note_on,channel=0, note=54, velocity=70, time=614)
+Message(note_off,channel=0, note=54, velocity=70, time=410)
+Message(note_on,channel=0, note=52, velocity=70, time=614)
+Message(note_off,channel=1, note=43, velocity=70, time=2048)
+Message(note_on,channel=1, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=52, velocity=70, time=410)
+Message(note_on,channel=0, note=50, velocity=70, time=614)
+Message(note_off,channel=0, note=50, velocity=70, time=410)
+Message(note_on,channel=0, note=48, velocity=70, time=614)
+Message(note_off,channel=1, note=50, velocity=70, time=2048)
+Message(note_on,channel=1, note=48, velocity=70, time=0)
+Message(note_off,channel=1, note=48, velocity=70, time=341)
+Message(note_on,channel=1, note=47, velocity=70, time=0)
+Message(note_off,channel=0, note=48, velocity=70, time=410)
+Message(note_off,channel=1, note=47, velocity=70, time=342)
+Message(note_on,channel=1, note=45, velocity=70, time=0)
+Message(note_on,channel=0, note=47, velocity=70, time=614)
+Message(note_off,channel=1, note=45, velocity=70, time=341)
+Message(note_on,channel=1, note=55, velocity=70, time=0)
+Message(note_off,channel=0, note=47, velocity=70, time=410)
+Message(note_on,channel=0, note=45, velocity=70, time=614)
+Message(note_off,channel=0, note=45, velocity=70, time=410)
+Message(note_on,channel=0, note=43, velocity=70, time=614)
+Message(note_off,channel=1, note=55, velocity=70, time=2048)
+Message(note_on,channel=1, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=43, velocity=70, time=410)
+Message(note_on,channel=0, note=48, velocity=70, time=614)
+Message(note_off,channel=1, note=50, velocity=70, time=1024)
+Message(note_on,channel=1, note=48, velocity=70, time=0)
+Message(note_off,channel=1, note=48, velocity=70, time=341)
+Message(note_on,channel=1, note=47, velocity=70, time=0)
+Message(note_off,channel=0, note=48, velocity=70, time=410)
+Message(note_off,channel=1, note=47, velocity=70, time=342)
+Message(note_on,channel=1, note=45, velocity=70, time=0)
+Message(note_on,channel=0, note=47, velocity=70, time=614)
+Message(note_off,channel=1, note=45, velocity=70, time=341)
+Message(note_on,channel=1, note=55, velocity=70, time=0)
+Message(note_off,channel=0, note=47, velocity=70, time=410)
+Message(note_on,channel=0, note=45, velocity=70, time=614)
+Message(note_off,channel=0, note=45, velocity=70, time=410)
+Message(note_on,channel=0, note=43, velocity=70, time=614)
+Message(note_off,channel=1, note=55, velocity=70, time=2048)
+Message(note_on,channel=1, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=43, velocity=70, time=410)
+Message(note_on,channel=0, note=41, velocity=70, time=614)
+Message(note_off,channel=1, note=50, velocity=70, time=1024)
+Message(note_on,channel=1, note=48, velocity=70, time=0)
+Message(note_off,channel=1, note=48, velocity=70, time=341)
+Message(note_on,channel=1, note=47, velocity=70, time=0)
+Message(note_off,channel=0, note=41, velocity=70, time=512)
+Message(note_off,channel=1, note=47, velocity=70, time=342)
+Message(note_on,channel=1, note=48, velocity=70, time=0)
+Message(note_on,channel=0, note=38, velocity=70, time=512)
+Message(note_off,channel=1, note=48, velocity=70, time=341)
+Message(note_on,channel=1, note=45, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=410)
+Message(note_on,channel=0, note=38, velocity=70, time=614)
+Message(note_off,channel=0, note=38, velocity=70, time=341)
+Message(note_on,channel=0, note=38, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=342)
+Message(note_on,channel=0, note=38, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=341)
+Message(note_on,channel=0, note=38, velocity=70, time=0)
+Message(note_off,channel=1, note=45, velocity=70, time=2048)
+Message(note_on,channel=1, note=38, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=512)
+Message(note_on,channel=0, note=38, velocity=70, time=512)
+Message(note_off,channel=1, note=38, velocity=70, time=1024)
+Message(note_on,channel=1, note=40, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=1536)
+Message(note_on,channel=0, note=38, velocity=70, time=0)
+Message(note_off,channel=1, note=40, velocity=70, time=1536)
+Message(note_on,channel=1, note=43, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=512)
+Message(note_on,channel=0, note=45, velocity=70, time=0)
+Message(note_off,channel=1, note=43, velocity=70, time=512)
+Message(note_on,channel=1, note=48, velocity=70, time=0)
+Message(note_off,channel=0, note=45, velocity=70, time=1024)
+Message(note_on,channel=0, note=38, velocity=70, time=0)
+Message(note_off,channel=1, note=48, velocity=70, time=1024)
+Message(note_on,channel=1, note=45, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=1024)
+Message(note_on,channel=0, note=43, velocity=70, time=0)
+Message(note_off,channel=1, note=45, velocity=70, time=1024)
+Message(note_on,channel=1, note=43, velocity=70, time=0)
+Message(note_off,channel=1, note=43, velocity=70, time=1024)
+Message(note_on,channel=1, note=43, velocity=70, time=0)
+Message(note_off,channel=1, note=43, velocity=70, time=1024)
+Message(note_on,channel=1, note=43, velocity=70, time=0)
+Message(note_off,channel=1, note=43, velocity=70, time=1024)
+Message(note_on,channel=1, note=39, velocity=70, time=0)
+Message(note_off,channel=1, note=39, velocity=70, time=768)
+Message(note_on,channel=1, note=46, velocity=70, time=0)
+Message(note_off,channel=1, note=46, velocity=70, time=256)
+Message(note_on,channel=1, note=43, velocity=70, time=0)
+Message(note_off,channel=1, note=43, velocity=70, time=1024)
+Message(note_on,channel=1, note=39, velocity=70, time=0)
+Message(note_off,channel=1, note=39, velocity=70, time=768)
+Message(note_on,channel=1, note=46, velocity=70, time=0)
+Message(note_off,channel=1, note=46, velocity=70, time=256)
+Message(note_on,channel=1, note=43, velocity=70, time=0)
+Message(note_off,channel=0, note=43, velocity=70, time=8192)
+Message(note_on,channel=0, note=50, velocity=70, time=0)
+Message(note_off,channel=1, note=43, velocity=70, time=2048)
+Message(note_on,channel=1, note=31, velocity=70, time=0)
+Message(note_off,channel=0, note=50, velocity=70, time=1024)
+Message(note_on,channel=0, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=50, velocity=70, time=1024)
+Message(note_on,channel=0, note=50, velocity=70, time=0)
+Message(note_off,channel=0, note=50, velocity=70, time=1024)
+Message(note_on,channel=0, note=51, velocity=70, time=0)
+Message(note_off,channel=0, note=51, velocity=70, time=768)
+Message(note_on,channel=0, note=46, velocity=70, time=0)
+Message(note_off,channel=0, note=46, velocity=70, time=256)
+Message(note_on,channel=0, note=42, velocity=70, time=0)
+Message(note_off,channel=1, note=31, velocity=70, time=4096)
+Message(note_on,channel=1, note=39, velocity=70, time=0)
+Message(note_off,channel=0, note=42, velocity=70, time=1024)
+Message(note_on,channel=0, note=38, velocity=70, time=0)
+Message(note_off,channel=1, note=39, velocity=70, time=1024)
+Message(note_on,channel=1, note=34, velocity=70, time=0)
+Message(note_off,channel=0, note=38, velocity=70, time=768)
+Message(note_on,channel=0, note=46, velocity=70, time=0)
+Message(note_off,channel=1, note=34, velocity=70, time=768)
+Message(note_on,channel=1, note=30, velocity=70, time=0)
+Message(note_off,channel=0, note=46, velocity=70, time=256)
+Message(note_on,channel=0, note=43, velocity=70, time=0)
+Message(note_off,channel=1, note=30, velocity=70, time=256)
+Message(note_on,channel=1, note=31, velocity=70, time=0)
+Message(note_off,channel=0, note=43, velocity=70, time=4096)
+Message(note_off,channel=1, note=31, velocity=70, time=4096)

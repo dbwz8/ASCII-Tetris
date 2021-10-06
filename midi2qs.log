@@ -1102,529 +1102,9779 @@ MetaMessage('end_of_track', time=0)
 //                     121856,1:   1,   0, 31
 //                     125952,0:   0,4096, 43
 //                     125952,1:   0,4096, 31
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=50, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=50, velocity=70, time=341)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=50, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICIICIH
+    X(2)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=50, velocity=70, time=342)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=50, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=50, velocity=70, time=341)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=55, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=55, velocity=70, time=1024)
+CIIICZII
+    X(0)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=55, velocity=70, time=410)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICS
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=54, velocity=70, time=614)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCISII
+    X(2)
+    X(3)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=54, velocity=70, time=410)
+ICCIZIII
+    X(1)
+    X(2)
+    X(4)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICIX
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=55, velocity=70, time=2048)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=62, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICISI
+    X(1)
+    X(4)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=52, velocity=70, time=614)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCSIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=52, velocity=70, time=410)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICICISI
+    X(2)
+    X(4)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=614)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=410)
+ICIICIIZ
+    X(1)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICIX
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=62, velocity=70, time=2048)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=60, velocity=70, time=0)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCISIII
+    X(1)
+    X(2)
+    X(4)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=48, velocity=70, time=614)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIHII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=60, velocity=70, time=341)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=59, velocity=70, time=0)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICICISII
+    X(1)
+    X(3)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=48, velocity=70, time=410)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=59, velocity=70, time=342)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=57, velocity=70, time=0)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCIHII
+    X(2)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=57, velocity=70, time=341)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIIIHI
+    X(0)
+    X(1)
+    X(6)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=67, velocity=70, time=0)
+ICICIIZI
+    X(1)
+    X(3)
+    X(6)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIISI
+    X(0)
+    X(3)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=47, velocity=70, time=614)
+CIICIZII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICISIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=47, velocity=70, time=410)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=45, velocity=70, time=614)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=45, velocity=70, time=410)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICIX
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIIIHI
+    X(0)
+    X(1)
+    X(6)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=67, velocity=70, time=2048)
+CCIIIIZI
+    X(0)
+    X(1)
+    X(6)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=62, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=43, velocity=70, time=614)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIICSII
+    X(0)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=43, velocity=70, time=410)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=62, velocity=70, time=1024)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=60, velocity=70, time=0)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCISIII
+    X(1)
+    X(2)
+    X(4)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=48, velocity=70, time=614)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIHII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=60, velocity=70, time=341)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=59, velocity=70, time=0)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICICISII
+    X(1)
+    X(3)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=48, velocity=70, time=410)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=59, velocity=70, time=342)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=57, velocity=70, time=0)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCIHII
+    X(2)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=57, velocity=70, time=341)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIIIHI
+    X(0)
+    X(1)
+    X(6)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=67, velocity=70, time=0)
+ICICIIZI
+    X(1)
+    X(3)
+    X(6)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIISI
+    X(0)
+    X(3)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=47, velocity=70, time=614)
+CIICIZII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICISIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=47, velocity=70, time=410)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=45, velocity=70, time=614)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=45, velocity=70, time=410)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICIX
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIIIHI
+    X(0)
+    X(1)
+    X(6)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=67, velocity=70, time=2048)
+CCIIIIZI
+    X(0)
+    X(1)
+    X(6)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=62, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=43, velocity=70, time=614)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIICSII
+    X(0)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=43, velocity=70, time=410)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=62, velocity=70, time=1024)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=60, velocity=70, time=0)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIISIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=53, velocity=70, time=614)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIHII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=60, velocity=70, time=341)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=59, velocity=70, time=0)
+CCIIZIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIICX
+    X(3)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICISIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=53, velocity=70, time=512)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=59, velocity=70, time=342)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=60, velocity=70, time=0)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIHII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=60, velocity=70, time=341)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=57, velocity=70, time=0)
+CIIICZII
+    X(0)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIICX
+    X(3)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=512)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=410)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICICISI
+    X(2)
+    X(4)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=614)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=341)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICIICSI
+    X(2)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=342)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=0)
+ICIICIIZ
+    X(1)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICIX
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=57, velocity=70, time=2048)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=50, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=341)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=50, velocity=70, time=341)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=50, velocity=70, time=0)
+ICICZIII
+    X(1)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIICX
+    X(3)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=512)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICIICIH
+    X(2)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=50, velocity=70, time=342)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=50, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=50, velocity=70, time=341)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=55, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICCZII
+    X(3)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIICX
+    X(3)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=55, velocity=70, time=512)
+CIIICZII
+    X(0)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=55, velocity=70, time=410)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICS
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=54, velocity=70, time=614)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCISII
+    X(2)
+    X(3)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=54, velocity=70, time=410)
+ICCIZIII
+    X(1)
+    X(2)
+    X(4)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICIX
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=55, velocity=70, time=2048)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=62, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICISI
+    X(1)
+    X(4)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=52, velocity=70, time=614)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCSIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=52, velocity=70, time=410)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICICISI
+    X(2)
+    X(4)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=614)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=410)
+ICIICIIZ
+    X(1)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICIX
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=62, velocity=70, time=2048)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=60, velocity=70, time=0)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCISIII
+    X(1)
+    X(2)
+    X(4)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=48, velocity=70, time=614)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIHII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=60, velocity=70, time=341)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=59, velocity=70, time=0)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICICISII
+    X(1)
+    X(3)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=48, velocity=70, time=410)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=59, velocity=70, time=342)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=57, velocity=70, time=0)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCIHII
+    X(2)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=57, velocity=70, time=341)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIIIHI
+    X(0)
+    X(1)
+    X(6)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=67, velocity=70, time=0)
+ICICIIZI
+    X(1)
+    X(3)
+    X(6)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIISI
+    X(0)
+    X(3)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=47, velocity=70, time=614)
+CIICIZII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICISIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=47, velocity=70, time=410)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=45, velocity=70, time=614)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=45, velocity=70, time=410)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICIX
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIIIHI
+    X(0)
+    X(1)
+    X(6)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=67, velocity=70, time=2048)
+CCIIIIZI
+    X(0)
+    X(1)
+    X(6)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=62, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=43, velocity=70, time=614)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIICSII
+    X(0)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=43, velocity=70, time=410)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=62, velocity=70, time=1024)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=60, velocity=70, time=0)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCISIII
+    X(1)
+    X(2)
+    X(4)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=48, velocity=70, time=614)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIHII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=60, velocity=70, time=341)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=59, velocity=70, time=0)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICICISII
+    X(1)
+    X(3)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=48, velocity=70, time=410)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=59, velocity=70, time=342)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=57, velocity=70, time=0)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCIHII
+    X(2)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=57, velocity=70, time=341)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIIIHI
+    X(0)
+    X(1)
+    X(6)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=67, velocity=70, time=0)
+ICICIIZI
+    X(1)
+    X(3)
+    X(6)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIISI
+    X(0)
+    X(3)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=47, velocity=70, time=614)
+CIICIZII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICISIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=47, velocity=70, time=410)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=45, velocity=70, time=614)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=45, velocity=70, time=410)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICIX
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIIIHI
+    X(0)
+    X(1)
+    X(6)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=67, velocity=70, time=2048)
+CCIIIIZI
+    X(0)
+    X(1)
+    X(6)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=62, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=43, velocity=70, time=614)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIICSII
+    X(0)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=43, velocity=70, time=410)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=62, velocity=70, time=1024)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=60, velocity=70, time=0)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIISIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=53, velocity=70, time=614)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIHII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=60, velocity=70, time=341)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=59, velocity=70, time=0)
+CCIIZIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIICX
+    X(3)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICISIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=53, velocity=70, time=512)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=59, velocity=70, time=342)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=60, velocity=70, time=0)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIHII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=60, velocity=70, time=341)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=57, velocity=70, time=0)
+CIIICZII
+    X(0)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIICX
+    X(3)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=512)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=410)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICICISI
+    X(2)
+    X(4)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=614)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=341)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICIICSI
+    X(2)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=342)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=0)
+ICIICIIZ
+    X(1)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICIX
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=57, velocity=70, time=2048)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=50, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=341)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=0)
+ICICZIII
+    X(1)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIICX
+    X(3)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=512)
+ICIIICIZ
+    X(1)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=50, velocity=70, time=1024)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICICHII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=52, velocity=70, time=0)
+IICCIZII
+    X(2)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICCIXI
+    X(3)
+    X(4)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=1536)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICCIIX
+    X(3)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICICHII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=52, velocity=70, time=1536)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICICHII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=52, velocity=70, time=0)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICICHII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=52, velocity=70, time=512)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=60, velocity=70, time=0)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=60, velocity=70, time=512)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=59, velocity=70, time=0)
+CCIIZIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=59, velocity=70, time=512)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=57, velocity=70, time=0)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICCX
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=2048)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=0)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=57, velocity=70, time=512)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=55, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICCZII
+    X(3)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=55, velocity=70, time=512)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=55, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=1024)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=0)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIIICIH
+    X(1)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=55, velocity=70, time=341)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=57, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICCZII
+    X(3)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCSIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=410)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIH
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=57, velocity=70, time=342)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=59, velocity=70, time=0)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=59, velocity=70, time=341)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=57, velocity=70, time=0)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=614)
+IICCIZII
+    X(2)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIIICIX
+    X(0)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICIIH
+    X(1)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=57, velocity=70, time=683)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICICHII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=52, velocity=70, time=0)
+CIIICZII
+    X(0)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIIICIH
+    X(0)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=52, velocity=70, time=341)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIHIII
+    X(1)
+    X(2)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=54, velocity=70, time=0)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIHIII
+    X(1)
+    X(2)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=54, velocity=70, time=1024)
+ICCIZIII
+    X(1)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=50, velocity=70, time=0)
+ICIICIIZ
+    X(1)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICCX
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=2048)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=0)
+IICCIZII
+    X(2)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIIICIX
+    X(0)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=50, velocity=70, time=683)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=50, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=50, velocity=70, time=341)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICICHII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=52, velocity=70, time=0)
+IICIICIZ
+    X(2)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=1024)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=0)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCSIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=410)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICXI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=614)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICCIIX
+    X(3)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICICHII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=52, velocity=70, time=1536)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICICHII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=52, velocity=70, time=0)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICICHII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=52, velocity=70, time=512)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=60, velocity=70, time=0)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=60, velocity=70, time=512)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=59, velocity=70, time=0)
+CCIIZIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=59, velocity=70, time=512)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=57, velocity=70, time=0)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICCX
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=2048)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=0)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=57, velocity=70, time=512)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=55, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICCZII
+    X(3)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=55, velocity=70, time=512)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=62, velocity=70, time=0)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=1024)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIIICSI
+    X(1)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=34, velocity=70, time=0)
+ICICIZII
+    X(1)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIICX
+    X(3)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIIICSI
+    X(1)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=34, velocity=70, time=512)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=62, velocity=70, time=1024)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=57, velocity=70, time=0)
+CIIICZII
+    X(0)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIICX
+    X(3)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=512)
+ICCIIIIZ
+    X(1)
+    X(2)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICIX
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=57, velocity=70, time=2048)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICCX
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=2048)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=0)
+ICCIZIII
+    X(1)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=60, velocity=70, time=1024)
+IICCIZII
+    X(2)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=1024)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=40, velocity=70, time=0)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICCIXI
+    X(3)
+    X(4)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=40, velocity=70, time=1536)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=40, velocity=70, time=0)
+IIICIIIZ
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICIX
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=60, velocity=70, time=2048)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=57, velocity=70, time=0)
+CIIICZII
+    X(0)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIICX
+    X(3)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=40, velocity=70, time=512)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=48, velocity=70, time=0)
+IIICCZII
+    X(3)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIICX
+    X(3)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=48, velocity=70, time=512)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=47, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIICX
+    X(3)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=47, velocity=70, time=512)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=45, velocity=70, time=0)
+CICIIZII
+    X(0)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIICX
+    X(3)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=45, velocity=70, time=512)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=43, velocity=70, time=0)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICIX
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=57, velocity=70, time=2048)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=57, velocity=70, time=0)
+CIIICZII
+    X(0)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIICX
+    X(3)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=43, velocity=70, time=512)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=43, velocity=70, time=0)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCSIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=43, velocity=70, time=341)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=45, velocity=70, time=0)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=45, velocity=70, time=342)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=47, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICCZII
+    X(3)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=57, velocity=70, time=1024)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=62, velocity=70, time=0)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICICSIII
+    X(1)
+    X(3)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=47, velocity=70, time=341)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=45, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIIICXI
+    X(0)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIISI
+    X(1)
+    X(2)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=45, velocity=70, time=683)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=40, velocity=70, time=0)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=40, velocity=70, time=341)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICICISII
+    X(1)
+    X(3)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=42, velocity=70, time=0)
+ICICIIIZ
+    X(1)
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICIX
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=62, velocity=70, time=2048)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=50, velocity=70, time=0)
+ICIIICIZ
+    X(1)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICICISII
+    X(1)
+    X(3)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=42, velocity=70, time=1024)
+ICICIZII
+    X(1)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=0)
+IICCIZII
+    X(2)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIIICXI
+    X(0)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=683)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=0)
+ICCIZIII
+    X(1)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=50, velocity=70, time=1024)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=45, velocity=70, time=0)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIISIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=341)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=55, velocity=70, time=0)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIIICIX
+    X(0)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIIIH
+    X(1)
+    X(2)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=45, velocity=70, time=683)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIH
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=47, velocity=70, time=0)
+CICIIZII
+    X(0)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIIICXI
+    X(0)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCSIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=55, velocity=70, time=683)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICISIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=53, velocity=70, time=0)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICICHIII
+    X(1)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=47, velocity=70, time=341)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=48, velocity=70, time=0)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=53, velocity=70, time=341)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIISIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=51, velocity=70, time=0)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIIICIX
+    X(0)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICIIH
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=48, velocity=70, time=683)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=50, velocity=70, time=0)
+IIICCZII
+    X(3)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIIICXI
+    X(0)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICCISI
+    X(3)
+    X(4)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=51, velocity=70, time=683)
+CCIIZIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=50, velocity=70, time=341)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIHIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=51, velocity=70, time=0)
+ICCIZIII
+    X(1)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=341)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=48, velocity=70, time=0)
+ICICZIII
+    X(1)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIIICIX
+    X(0)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICCIIH
+    X(3)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=51, velocity=70, time=683)
+CCIIZIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICIHIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=53, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICCZII
+    X(3)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIIICXI
+    X(0)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICICS
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=48, velocity=70, time=683)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCSIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=46, velocity=70, time=0)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=53, velocity=70, time=341)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=55, velocity=70, time=0)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=46, velocity=70, time=341)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=45, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIIICIX
+    X(0)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=55, velocity=70, time=683)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICHIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=57, velocity=70, time=0)
+CCIIZIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIIICXI
+    X(0)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIISI
+    X(1)
+    X(2)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=45, velocity=70, time=683)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=43, velocity=70, time=0)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCIHII
+    X(2)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=57, velocity=70, time=341)
+IICCZIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCSIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=43, velocity=70, time=341)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=0)
+ICIIICIZ
+    X(1)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=1024)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIHIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=341)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=0)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=342)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=0)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIHIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=341)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=0)
+ICCIZIII
+    X(1)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=1024)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=0)
+ICCIZIII
+    X(1)
+    X(2)
+    X(4)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCXI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=3072)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=0)
+IICCIZII
+    X(2)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIIICXI
+    X(0)
+    X(5)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=683)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=0)
+ICCIZIII
+    X(1)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=1024)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=0)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIISIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=341)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=40, velocity=70, time=0)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICCIIX
+    X(3)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=1536)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=0)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICCIXI
+    X(3)
+    X(4)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=40, velocity=70, time=1536)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=43, velocity=70, time=0)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=512)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=45, velocity=70, time=0)
+CICIIZII
+    X(0)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIICX
+    X(3)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=43, velocity=70, time=512)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=48, velocity=70, time=0)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=45, velocity=70, time=1024)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=0)
+ICCIZIII
+    X(1)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=48, velocity=70, time=1024)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=45, velocity=70, time=0)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=1024)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=55, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=45, velocity=70, time=1024)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=43, velocity=70, time=0)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=55, velocity=70, time=410)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIH
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=54, velocity=70, time=614)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCIHII
+    X(2)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=54, velocity=70, time=410)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICCZII
+    X(3)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICIIH
+    X(1)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=52, velocity=70, time=614)
+IICICIIZ
+    X(2)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICCX
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=43, velocity=70, time=2048)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=0)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=52, velocity=70, time=410)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICICIIH
+    X(2)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=50, velocity=70, time=614)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICICIH
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=50, velocity=70, time=410)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIHIII
+    X(1)
+    X(2)
+    X(4)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=48, velocity=70, time=614)
+IIIICIIZ
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICCX
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=2048)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=48, velocity=70, time=0)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICIISII
+    X(0)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=48, velocity=70, time=341)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=47, velocity=70, time=0)
+CIICIZII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICICIHII
+    X(1)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=48, velocity=70, time=410)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICSIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=47, velocity=70, time=342)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=45, velocity=70, time=0)
+IICIICIZ
+    X(2)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIIIH
+    X(0)
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=47, velocity=70, time=614)
+ICICIZII
+    X(1)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICCSII
+    X(3)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=45, velocity=70, time=341)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=55, velocity=70, time=0)
+CIIICZII
+    X(0)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICIHIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=47, velocity=70, time=410)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=45, velocity=70, time=614)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=45, velocity=70, time=410)
+IICIICIZ
+    X(2)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=43, velocity=70, time=614)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICCX
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=55, velocity=70, time=2048)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=0)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIICHII
+    X(0)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=43, velocity=70, time=410)
+ICIIICIZ
+    X(1)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIHIII
+    X(1)
+    X(2)
+    X(4)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=48, velocity=70, time=614)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=1024)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=48, velocity=70, time=0)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICIISII
+    X(0)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=48, velocity=70, time=341)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=47, velocity=70, time=0)
+CIICIZII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICICIHII
+    X(1)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=48, velocity=70, time=410)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICSIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=47, velocity=70, time=342)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=45, velocity=70, time=0)
+IICIICIZ
+    X(2)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIIIH
+    X(0)
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=47, velocity=70, time=614)
+ICICIZII
+    X(1)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICCSII
+    X(3)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=45, velocity=70, time=341)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=55, velocity=70, time=0)
+CIIICZII
+    X(0)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICIHIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=47, velocity=70, time=410)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=45, velocity=70, time=614)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=45, velocity=70, time=410)
+IICIICIZ
+    X(2)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=43, velocity=70, time=614)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICCX
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=55, velocity=70, time=2048)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=0)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIICHII
+    X(0)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=43, velocity=70, time=410)
+ICIIICIZ
+    X(1)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICIIIH
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=41, velocity=70, time=614)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=1024)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=48, velocity=70, time=0)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICIISII
+    X(0)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=48, velocity=70, time=341)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=47, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIHII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=41, velocity=70, time=512)
+IICCIZII
+    X(2)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICSIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=47, velocity=70, time=342)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=48, velocity=70, time=0)
+IIICCZII
+    X(3)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=512)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICIISII
+    X(0)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=48, velocity=70, time=341)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=45, velocity=70, time=0)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=410)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=614)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIHIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=341)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=0)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=342)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=0)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIHIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=341)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=0)
+ICCIIIIZ
+    X(1)
+    X(2)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICCX
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=45, velocity=70, time=2048)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=0)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIISIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=341)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=0)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=512)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=342)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=0)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=55, velocity=70, time=512)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIISIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=341)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=43, velocity=70, time=0)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=55, velocity=70, time=410)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIH
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=54, velocity=70, time=614)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCIHII
+    X(2)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=54, velocity=70, time=410)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICCZII
+    X(3)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICIIH
+    X(1)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=52, velocity=70, time=614)
+IICICIIZ
+    X(2)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICCX
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=43, velocity=70, time=2048)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=0)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=52, velocity=70, time=410)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICICIIH
+    X(2)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=50, velocity=70, time=614)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICICIH
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=50, velocity=70, time=410)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIHIII
+    X(1)
+    X(2)
+    X(4)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=48, velocity=70, time=614)
+IIIICIIZ
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICCX
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=2048)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=48, velocity=70, time=0)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICIISII
+    X(0)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=48, velocity=70, time=341)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=47, velocity=70, time=0)
+CIICIZII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICICIHII
+    X(1)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=48, velocity=70, time=410)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICSIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=47, velocity=70, time=342)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=45, velocity=70, time=0)
+IICIICIZ
+    X(2)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIIIH
+    X(0)
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=47, velocity=70, time=614)
+ICICIZII
+    X(1)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICCSII
+    X(3)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=45, velocity=70, time=341)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=55, velocity=70, time=0)
+CIIICZII
+    X(0)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICIHIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=47, velocity=70, time=410)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=45, velocity=70, time=614)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=45, velocity=70, time=410)
+IICIICIZ
+    X(2)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=43, velocity=70, time=614)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICCX
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=55, velocity=70, time=2048)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=0)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIICHII
+    X(0)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=43, velocity=70, time=410)
+ICIIICIZ
+    X(1)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIHIII
+    X(1)
+    X(2)
+    X(4)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=48, velocity=70, time=614)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=1024)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=48, velocity=70, time=0)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICIISII
+    X(0)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=48, velocity=70, time=341)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=47, velocity=70, time=0)
+CIICIZII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICICIHII
+    X(1)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=48, velocity=70, time=410)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICSIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=47, velocity=70, time=342)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=45, velocity=70, time=0)
+IICIICIZ
+    X(2)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIIIH
+    X(0)
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=47, velocity=70, time=614)
+ICICIZII
+    X(1)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICCSII
+    X(3)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=45, velocity=70, time=341)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=55, velocity=70, time=0)
+CIIICZII
+    X(0)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICIHIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=47, velocity=70, time=410)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=45, velocity=70, time=614)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=45, velocity=70, time=410)
+IICIICIZ
+    X(2)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=43, velocity=70, time=614)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICCX
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=55, velocity=70, time=2048)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=50, velocity=70, time=0)
+IICICZII
+    X(2)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIIICHII
+    X(0)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=43, velocity=70, time=410)
+ICIIICIZ
+    X(1)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCHIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICIIIH
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=41, velocity=70, time=614)
+CIICZIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICSII
+    X(1)
+    X(4)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=50, velocity=70, time=1024)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=48, velocity=70, time=0)
+CICIZIII
+    X(0)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICIISII
+    X(0)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=48, velocity=70, time=341)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=47, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICIHII
+    X(0)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=41, velocity=70, time=512)
+IICCIZII
+    X(2)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CIICSIII
+    X(0)
+    X(3)
+    X(4)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=47, velocity=70, time=342)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=48, velocity=70, time=0)
+IIICCZII
+    X(3)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=512)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICIISII
+    X(0)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=48, velocity=70, time=341)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=45, velocity=70, time=0)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCXIII
+    X(2)
+    X(3)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCHIII
+    X(2)
+    X(3)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=410)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCXIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIX
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=614)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIHIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=341)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=0)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIXIII
+    X(0)
+    X(1)
+    X(4)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCIH
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=342)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=0)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIHIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=341)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=0)
+ICCIIIIZ
+    X(1)
+    X(2)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICCX
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=45, velocity=70, time=2048)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=38, velocity=70, time=0)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=512)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=512)
+ICCIZIII
+    X(1)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIISII
+    X(1)
+    X(2)
+    X(5)
+IIIIIICS
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=38, velocity=70, time=1024)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=40, velocity=70, time=0)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICCIIX
+    X(3)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=1536)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=0)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICCIXI
+    X(3)
+    X(4)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICICSI
+    X(3)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=40, velocity=70, time=1536)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=43, velocity=70, time=0)
+CCIIIZII
+    X(0)
+    X(1)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIIIX
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=512)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=45, velocity=70, time=0)
+CICIIZII
+    X(0)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIICIICX
+    X(3)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=43, velocity=70, time=512)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=48, velocity=70, time=0)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICHIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=45, velocity=70, time=1024)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=0)
+ICCIZIII
+    X(1)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICCSI
+    X(4)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=48, velocity=70, time=1024)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=45, velocity=70, time=0)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=1024)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=43, velocity=70, time=0)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CICSIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=45, velocity=70, time=1024)
+CICZIIII
+    X(0)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=43, velocity=70, time=0)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=43, velocity=70, time=1024)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=43, velocity=70, time=0)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=43, velocity=70, time=1024)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=43, velocity=70, time=0)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=43, velocity=70, time=1024)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=39, velocity=70, time=0)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCIIXI
+    X(2)
+    X(3)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=39, velocity=70, time=768)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCSIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=46, velocity=70, time=0)
+ICICIZII
+    X(1)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICIIICX
+    X(2)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCSIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=46, velocity=70, time=256)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=43, velocity=70, time=0)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=43, velocity=70, time=1024)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=39, velocity=70, time=0)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCIIXI
+    X(2)
+    X(3)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=39, velocity=70, time=768)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCSIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=46, velocity=70, time=0)
+ICICIZII
+    X(1)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICIIICX
+    X(2)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCSIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=46, velocity=70, time=256)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=43, velocity=70, time=0)
-Message(note_off,channel=0, note=43, velocity=70, time=8192)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+Message(note_off,channel=0, note=43, velocity=70, time=0)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=50, velocity=70, time=0)
+ICIICIIZ
+    X(1)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIICCX
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCISIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=43, velocity=70, time=2048)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICCISI
+    X(3)
+    X(4)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=31, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICIIIZ
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=50, velocity=70, time=1024)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=50, velocity=70, time=0)
+ICIIICIZ
+    X(1)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=50, velocity=70, time=1024)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=50, velocity=70, time=0)
+ICIIICIZ
+    X(1)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIICHII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=50, velocity=70, time=1024)
+ICIICZII
+    X(1)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIHIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=51, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICCZII
+    X(3)
+    X(4)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCIIIX
+    X(2)
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIIHIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=51, velocity=70, time=768)
+CCIIZIII
+    X(0)
+    X(1)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=46, velocity=70, time=0)
+ICICIZII
+    X(1)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICIIIIX
+    X(2)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=46, velocity=70, time=256)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICICIHII
+    X(1)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=42, velocity=70, time=0)
+ICICIZII
+    X(1)
+    X(3)
+    X(5)
+IIIIIICZ
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICCISI
+    X(3)
+    X(4)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=31, velocity=70, time=4096)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICCIIZ
+    X(3)
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=39, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIICCIZ
+    X(4)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICIIX
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICICIHII
+    X(1)
+    X(3)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=42, velocity=70, time=1024)
+ICICIZII
+    X(1)
+    X(3)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=38, velocity=70, time=0)
+ICCIZIII
+    X(1)
+    X(2)
+    X(4)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIICICX
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICCS
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=39, velocity=70, time=1024)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIIICSI
+    X(1)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=34, velocity=70, time=0)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCIIIX
+    X(2)
+    X(3)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCIIHII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIH
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=38, velocity=70, time=768)
+ICCIIZII
+    X(1)
+    X(2)
+    X(5)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=46, velocity=70, time=0)
+ICIIICIZ
+    X(1)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICCIIXI
+    X(2)
+    X(3)
+    X(6)
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICIIICSI
+    X(1)
+    X(5)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=34, velocity=70, time=768)
+ICIIICIZ
+    X(1)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCSIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICICS
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=30, velocity=70, time=0)
+ICICZIII
+    X(1)
+    X(3)
+    X(4)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICIIIIX
+    X(2)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCHIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=46, velocity=70, time=256)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIIICIZ
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=0, note=43, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICICIZ
+    X(3)
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IICIIICX
+    X(2)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+ICCSIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICICS
+    X(4)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=30, velocity=70, time=256)
+ICCZIIII
+    X(1)
+    X(2)
+    X(3)
+IIIICIIZ
+    X(4)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICCISI
+    X(3)
+    X(4)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_on,channel=1, note=31, velocity=70, time=0)
+CCZIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICCIZI
+    X(3)
+    X(4)
+    X(6)
+IIIIIIIZ
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIICX
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCIHIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICIH
+    X(5)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=0, note=43, velocity=70, time=4096)
+CCIZIIII
+    X(0)
+    X(1)
+    X(3)
+IIIIICCZ
+    X(5)
+    X(6)
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+IIIIIIIX
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
+CCSIIIII
+    X(0)
+    X(1)
+    X(2)
+IIICCISI
+    X(3)
+    X(4)
+    X(6)
+IIIIIIIS
+     M(0)  M(1)  M(2)  M(3)  M(4)  M(5)  M(6) 
 Message(note_off,channel=1, note=31, velocity=70, time=4096)
